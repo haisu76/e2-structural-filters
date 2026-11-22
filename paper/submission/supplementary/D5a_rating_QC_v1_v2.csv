@@ -1,0 +1,3 @@
+﻿pass,verdict,generated_at,n_rows,n_unique_items,n_anchor_pairs_per_rater,scale_flags,quantization_flags,quantization_blocks,block_flags,anchor_flags,rejected_blocks
+v1,REVISE,2026-11-18T06:56:40+00:00,1920,600,40,4,8,2,1,0,R3 block 4
+v2 (official),PASS,2026-11-18T08:19:31+00:00,1920,600,40,0,9,0,0,0,

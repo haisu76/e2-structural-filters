@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this code or the derived tables, please cite the manuscript and this package."
+type: software
+title: "Replication package for: Structural Filters Are the Least Robust: A Preregistered Stress Test of Spam-Detector Feature Families"
+version: 1.0.0
+date-released: 2026-11-22
+license: MIT
+authors:
+  - name: "The E2 study authors"
+repository-code: "https://github.com/TODO/e2-structural-filters"
+keywords:
+  - spam detection
+  - adversarial robustness
+  - preregistration
+  - feature families
+  - large language models
+abstract: "Analysis code, prompts, detector configurations, derived tables, and figure scripts for a preregistered stress test of five spam-detector feature families under content-preserving rewrites."
+# After the Zenodo release, add:
+# doi: "10.5281/zenodo.XXXXXXX"

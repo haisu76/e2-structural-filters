@@ -1,0 +1,21 @@
+﻿detector,condition,temperature_dimension,n_pairs,flip_count,flip_rate,pearson_r,p_value,q_value,note
+D1,warmer,warmth,100,1,0.01,0.0519469,0.607752,0.759624,fewer than 10 flips; descriptive only
+D1,colder,warmth,100,4,0.04,-0.0477989,0.636749,0.759624,fewer than 10 flips; descriptive only
+D1,more_urgent,urgency,100,1,0.01,-0.0309796,0.759624,0.759624,fewer than 10 flips; descriptive only
+D1,less_urgent,urgency,100,2,0.02,0.080665,0.424981,0.759624,fewer than 10 flips; descriptive only
+D2,warmer,warmth,100,1,0.01,0.0604378,0.55029,0.734896,fewer than 10 flips; descriptive only
+D2,colder,warmth,100,3,0.03,0.034283,0.734896,0.734896,fewer than 10 flips; descriptive only
+D2,more_urgent,urgency,100,0,0,,,,fewer than 10 flips; descriptive only
+D2,less_urgent,urgency,100,1,0.01,0.0747593,0.459768,0.734896,fewer than 10 flips; descriptive only
+D3,warmer,warmth,100,6,0.06,-0.221877,0.0265133,0.0530266,fewer than 10 flips; descriptive only
+D3,colder,warmth,100,25,0.25,-0.137534,0.172398,0.229864,
+D3,more_urgent,urgency,100,3,0.03,-0.0241077,0.811819,0.811819,fewer than 10 flips; descriptive only
+D3,less_urgent,urgency,100,34,0.34,-0.515098,4.17502e-08,1.67001e-07,
+D4,warmer,warmth,100,0,0,,,,fewer than 10 flips; descriptive only
+D4,colder,warmth,100,27,0.27,-0.0100074,0.921282,0.921282,
+D4,more_urgent,urgency,100,7,0.07,0.256031,0.0101368,0.0304104,fewer than 10 flips; descriptive only
+D4,less_urgent,urgency,100,7,0.07,-0.139975,0.164832,0.247248,fewer than 10 flips; descriptive only
+D5,warmer,warmth,100,1,0.01,0.278034,0.00509707,0.0152912,fewer than 10 flips; descriptive only
+D5,colder,warmth,100,4,0.04,0.0734233,0.467849,0.467849,fewer than 10 flips; descriptive only
+D5,more_urgent,urgency,100,2,0.02,-0.131233,0.193097,0.289646,fewer than 10 flips; descriptive only
+D5,less_urgent,urgency,100,0,0,,,,fewer than 10 flips; descriptive only

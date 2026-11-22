@@ -1,0 +1,858 @@
+﻿seed_id,condition,candidate,complete_pair,inclusion_basis,length_ratio,validator_warnings
+E2-001,colder,1,0,auto_hard_validation,1.0325,negation_count_changed 2->3
+E2-001,more_urgent,1,0,auto_hard_validation,1.0325,negation_count_changed 2->4
+E2-001,neutral,1,0,auto_hard_validation,1.0976,negation_count_changed 2->4
+E2-001,warmer,1,0,auto_hard_validation,1.1382,negation_count_changed 2->3
+E2-002,colder,3,1,auto_hard_validation,1.0763,"action_maybe_removed: click, pay | promise_maybe_removed: free | negation_count_changed 5->6"
+E2-002,less_urgent,3,1,human_both_valid,1.1398,action_maybe_removed: pay | negation_count_changed 5->7 | less_urgent_direction_weak (urgency delta=0)
+E2-002,more_urgent,2,1,auto_hard_validation,1.0508,action_maybe_removed: pay | negation_count_changed 5->7
+E2-002,neutral,3,1,auto_hard_validation,1.0847,negation_count_changed 5->6
+E2-002,warmer,3,1,human_both_valid,1.0678,action_maybe_removed: pay | negation_count_changed 5->6
+E2-003,colder,3,1,auto_hard_validation,1.0854,
+E2-003,less_urgent,3,1,auto_hard_validation,1.1707,"borderline_copy (similarity=0.911, jaccard=0.756) | less_urgent_direction_weak (urgency delta=0)"
+E2-003,more_urgent,3,1,human_both_valid,1.1463,negation_count_changed 0->1
+E2-003,neutral,3,1,auto_hard_validation,1.0488,
+E2-003,warmer,1,1,auto_hard_validation,1.1829,
+E2-004,colder,2,1,auto_hard_validation,1.0259,
+E2-004,less_urgent,2,1,human_both_valid,1.1293,less_urgent_direction_weak (urgency delta=0)
+E2-004,more_urgent,2,1,auto_hard_validation,1.0517,more_urgent_direction_weak (urgency delta=0)
+E2-004,neutral,2,1,human_both_valid,1.0086,
+E2-004,warmer,2,1,auto_hard_validation,1.0948,"borderline_copy (similarity=0.901, jaccard=0.813)"
+E2-005,colder,1,1,auto_hard_validation,1.1754,
+E2-005,less_urgent,1,1,human_both_valid,1.193,
+E2-005,more_urgent,1,1,auto_hard_validation,1.1404,negation_count_changed 0->1 | more_urgent_direction_weak (urgency delta=-1)
+E2-005,neutral,1,1,human_both_valid,1.1579,action_maybe_removed: submit
+E2-005,warmer,1,1,human_both_valid,1.193,
+E2-006,colder,2,1,human_both_valid,1.1538,action_maybe_removed: submit
+E2-006,less_urgent,2,1,human_both_valid,1.1231,action_maybe_removed: submit | negation_count_changed 1->0
+E2-006,more_urgent,2,1,human_both_valid,1.0,threat_maybe_removed: lock
+E2-006,neutral,2,1,human_both_valid,0.9231,action_maybe_removed: submit | threat_maybe_removed: lock
+E2-006,warmer,2,1,auto_hard_validation,1.1846,action_maybe_removed: submit
+E2-007,colder,2,1,auto_hard_validation,1.0118,colder_direction_weak (warmth delta=0)
+E2-007,less_urgent,2,1,human_both_valid,1.0706,less_urgent_direction_weak (urgency delta=0)
+E2-007,more_urgent,2,1,human_both_valid,1.0294,
+E2-007,neutral,2,1,human_both_valid,1.0647,
+E2-007,warmer,2,1,human_both_valid,1.1471,"borderline_copy (similarity=0.903, jaccard=0.840)"
+E2-008,colder,3,0,auto_hard_validation,1.1262,sentence_ratio 1.86
+E2-008,less_urgent,3,0,auto_hard_validation,1.1456,sentence_ratio 1.71 | less_urgent_direction_weak (urgency delta=0)
+E2-008,more_urgent,3,0,auto_hard_validation,1.1068,negation_count_changed 7->3 | more_urgent_direction_weak (urgency delta=0)
+E2-008,neutral,3,0,auto_hard_validation,1.0,negation_count_changed 7->5
+E2-009,more_urgent,3,0,auto_hard_validation,1.0448,"borderline_copy (similarity=0.937, jaccard=0.860) | negation_count_changed 0->2"
+E2-009,neutral,3,0,auto_hard_validation,1.1493,"borderline_copy (similarity=0.903, jaccard=0.723)"
+E2-009,warmer,3,0,auto_hard_validation,1.1642,"borderline_copy (similarity=0.921, jaccard=0.755)"
+E2-010,colder,3,0,human_both_valid,1.0796,negation_count_changed 4->5
+E2-010,less_urgent,3,0,auto_hard_validation,1.1018,negation_count_changed 4->3
+E2-010,more_urgent,3,0,auto_hard_validation,1.0265,more_urgent_direction_weak (urgency delta=0)
+E2-010,neutral,3,0,auto_hard_validation,1.0221,
+E2-011,colder,1,1,auto_hard_validation,1.1979,
+E2-011,less_urgent,1,1,auto_hard_validation,1.0938,
+E2-011,more_urgent,1,1,human_both_valid,1.0521,
+E2-011,neutral,1,1,auto_hard_validation,1.0,
+E2-011,warmer,1,1,human_both_valid,1.0312,
+E2-012,colder,2,1,human_both_valid,1.0407,colder_direction_weak (warmth delta=0)
+E2-012,less_urgent,2,1,auto_hard_validation,1.0244,less_urgent_direction_weak (urgency delta=0)
+E2-012,more_urgent,2,1,human_both_valid,1.0407,more_urgent_direction_weak (urgency delta=0)
+E2-012,neutral,2,1,human_both_valid,1.0732,
+E2-012,warmer,2,1,auto_hard_validation,1.1545,warmer_direction_weak (warmth delta=0)
+E2-013,colder,3,1,human_both_valid,0.9744,promise_maybe_removed: free | negation_count_changed 0->1
+E2-013,less_urgent,3,1,auto_hard_validation,1.1795,negation_count_changed 0->1
+E2-013,more_urgent,3,1,auto_hard_validation,0.9658,negation_count_changed 0->1
+E2-013,neutral,3,1,auto_hard_validation,1.0513,negation_count_changed 0->1
+E2-013,warmer,3,1,auto_hard_validation,1.1368,negation_count_changed 0->2
+E2-014,colder,3,1,human_both_valid,1.0085,negation_count_changed 7->6
+E2-014,less_urgent,3,1,human_both_valid,1.188,negation_count_changed 7->8 | less_urgent_direction_weak (urgency delta=0)
+E2-014,more_urgent,3,1,auto_hard_validation,1.0256,
+E2-014,neutral,3,1,human_both_valid,1.1197,action_maybe_removed: click | negation_count_changed 7->8
+E2-014,warmer,3,1,human_both_valid,1.1624,negation_count_changed 7->6
+E2-015,colder,2,0,auto_hard_validation,1.1235,action_maybe_removed: submit | negation_count_changed 0->1 | colder_direction_weak (warmth delta=1)
+E2-015,less_urgent,2,0,auto_hard_validation,1.1975,action_maybe_removed: submit | negation_count_changed 0->1 | less_urgent_direction_weak (urgency delta=0)
+E2-015,more_urgent,3,0,auto_hard_validation,1.1975,action_maybe_removed: submit | negation_count_changed 0->3 | more_urgent_direction_weak (urgency delta=0)
+E2-015,neutral,2,0,auto_hard_validation,1.1111,action_maybe_removed: submit | negation_count_changed 0->2
+E2-016,less_urgent,1,0,human_both_valid,1.1272,negation_count_changed 1->2 | subject_unchanged | less_urgent_direction_weak (urgency delta=0)
+E2-016,more_urgent,1,0,auto_hard_validation,1.0983,subject_unchanged | more_urgent_direction_weak (urgency delta=0)
+E2-016,neutral,1,0,auto_hard_validation,1.0462,subject_unchanged
+E2-016,warmer,3,0,auto_hard_validation,1.1792,subject_unchanged
+E2-017,less_urgent,1,0,auto_hard_validation,1.1037,negation_count_changed 4->5 | less_urgent_direction_weak (urgency delta=0)
+E2-017,more_urgent,1,0,auto_hard_validation,1.037,negation_count_changed 4->7
+E2-017,neutral,1,0,auto_hard_validation,1.0815,
+E2-017,warmer,1,0,auto_hard_validation,1.1111,
+E2-018,colder,3,1,human_both_valid,1.125,colder_direction_weak (warmth delta=0)
+E2-018,less_urgent,3,1,auto_hard_validation,1.1607,less_urgent_direction_weak (urgency delta=0)
+E2-018,more_urgent,3,1,auto_hard_validation,1.1071,more_urgent_direction_weak (urgency delta=0)
+E2-018,neutral,3,1,auto_hard_validation,1.1786,
+E2-018,warmer,3,1,auto_hard_validation,1.125,warmer_direction_weak (warmth delta=0)
+E2-019,colder,2,1,human_both_valid,1.0426,colder_direction_weak (warmth delta=0)
+E2-019,less_urgent,2,1,auto_hard_validation,1.0106,less_urgent_direction_weak (urgency delta=0)
+E2-019,more_urgent,2,1,auto_hard_validation,1.0638,more_urgent_direction_weak (urgency delta=0)
+E2-019,neutral,2,1,auto_hard_validation,1.0106,
+E2-019,warmer,1,1,human_both_valid,1.0426,warmer_direction_weak (warmth delta=0)
+E2-020,colder,3,0,auto_hard_validation,0.9659,colder_direction_weak (warmth delta=0)
+E2-020,more_urgent,3,0,human_both_valid,0.8864,negation_count_changed 2->1
+E2-020,neutral,3,0,auto_hard_validation,1.0682,negation_count_changed 2->1
+E2-020,warmer,3,0,auto_hard_validation,1.1136,
+E2-021,colder,3,1,human_both_valid,1.0451,action_maybe_removed: click
+E2-021,less_urgent,1,1,human_both_valid,1.0977,"borderline_copy (similarity=0.916, jaccard=0.856) | less_urgent_direction_weak (urgency delta=0)"
+E2-021,more_urgent,1,1,human_both_valid,0.9812,more_urgent_direction_weak (urgency delta=0)
+E2-021,neutral,1,1,auto_hard_validation,1.0376,negation_count_changed 5->4
+E2-021,warmer,3,1,auto_hard_validation,0.985,negation_count_changed 5->4
+E2-022,colder,3,1,human_both_valid,1.037,action_maybe_removed: click | negation_count_changed 4->5 | colder_direction_weak (warmth delta=0)
+E2-022,less_urgent,3,1,auto_hard_validation,1.1704,negation_count_changed 4->5 | less_urgent_direction_weak (urgency delta=0)
+E2-022,more_urgent,3,1,auto_hard_validation,1.037,negation_count_changed 4->6 | more_urgent_direction_weak (urgency delta=0)
+E2-022,neutral,3,1,auto_hard_validation,1.1259,negation_count_changed 4->5
+E2-022,warmer,3,1,human_both_valid,1.163,negation_count_changed 4->6
+E2-023,colder,2,1,human_both_valid,1.193,action_maybe_removed: submit
+E2-023,less_urgent,2,1,human_both_valid,1.1228,
+E2-023,more_urgent,2,1,auto_hard_validation,1.1404,negation_count_changed 0->1 | more_urgent_direction_weak (urgency delta=0)
+E2-023,neutral,3,1,auto_hard_validation,1.0526,
+E2-023,warmer,2,1,auto_hard_validation,1.193,
+E2-024,colder,2,1,auto_hard_validation,1.0286,
+E2-024,less_urgent,2,1,auto_hard_validation,1.1143,less_urgent_direction_weak (urgency delta=0)
+E2-024,more_urgent,2,1,auto_hard_validation,0.9714,"borderline_copy (similarity=0.941, jaccard=0.772) | action_maybe_removed: pay"
+E2-024,neutral,2,1,auto_hard_validation,0.9905,
+E2-024,warmer,2,1,human_both_valid,1.1619,action_maybe_removed: pay
+E2-025,colder,2,0,auto_hard_validation,1.0152,
+E2-025,more_urgent,2,0,auto_hard_validation,1.0303,more_urgent_direction_weak (urgency delta=0)
+E2-025,neutral,2,0,human_both_valid,1.0051,paragraph_count_changed by 3
+E2-026,colder,1,1,human_both_valid,1.0692,"action_maybe_removed: click, submit | negation_count_changed 1->2"
+E2-026,less_urgent,1,1,auto_hard_validation,1.1769,
+E2-026,more_urgent,1,1,human_both_valid,1.1077,negation_count_changed 1->2
+E2-026,neutral,1,1,auto_hard_validation,1.0077,negation_count_changed 1->2
+E2-026,warmer,1,1,auto_hard_validation,1.1231,
+E2-027,colder,1,0,human_both_valid,1.0418,negation_count_changed 7->5 | colder_direction_weak (warmth delta=0)
+E2-027,less_urgent,1,0,auto_hard_validation,1.1103,negation_count_changed 7->5
+E2-027,more_urgent,1,0,auto_hard_validation,0.9772,"borderline_copy (similarity=0.905, jaccard=0.809) | negation_count_changed 7->8 | more_urgent_direction_weak (urgency delta=0)"
+E2-027,neutral,1,0,auto_hard_validation,0.9848,
+E2-028,colder,2,1,human_both_valid,1.1192,negation_count_changed 2->3 | subject_unchanged
+E2-028,less_urgent,2,1,auto_hard_validation,1.1325,
+E2-028,more_urgent,2,1,auto_hard_validation,1.0331,action_maybe_removed: submit | negation_count_changed 2->3
+E2-028,neutral,2,1,human_both_valid,1.0199,action_maybe_removed: submit
+E2-028,warmer,2,1,auto_hard_validation,1.1589,negation_count_changed 2->3
+E2-029,colder,2,1,auto_hard_validation,0.9695,action_maybe_removed: pay | negation_count_changed 0->1
+E2-029,less_urgent,2,1,auto_hard_validation,1.1603,
+E2-029,more_urgent,2,1,human_both_valid,1.0382,action_maybe_removed: pay | negation_count_changed 0->1
+E2-029,neutral,2,1,auto_hard_validation,1.1145,action_maybe_removed: click
+E2-029,warmer,2,1,auto_hard_validation,1.1832,action_maybe_removed: pay
+E2-030,colder,3,1,auto_hard_validation,1.0,colder_direction_weak (warmth delta=0)
+E2-030,less_urgent,3,1,auto_hard_validation,0.9886,"borderline_copy (similarity=0.908, jaccard=0.744)"
+E2-030,more_urgent,3,1,auto_hard_validation,0.9771,negation_count_changed 0->1 | more_urgent_direction_weak (urgency delta=0)
+E2-030,neutral,3,1,auto_hard_validation,1.0629,"borderline_copy (similarity=0.908, jaccard=0.704)"
+E2-030,warmer,3,1,auto_hard_validation,1.1257,negation_count_changed 0->1
+E2-031,colder,1,0,auto_hard_validation,1.0517,
+E2-031,less_urgent,3,0,human_both_valid,1.1552,less_urgent_direction_weak (urgency delta=0)
+E2-031,neutral,1,0,auto_hard_validation,1.1207,
+E2-031,warmer,1,0,auto_hard_validation,1.1638,"borderline_copy (similarity=0.914, jaccard=0.764) | meta_warning: \bnote:\s*(?:i|this|the)\b"
+E2-032,less_urgent,3,0,auto_hard_validation,0.9863,less_urgent_direction_weak (urgency delta=0)
+E2-032,more_urgent,3,0,auto_hard_validation,1.1096,
+E2-032,neutral,3,0,auto_hard_validation,0.9315,
+E2-032,warmer,3,0,auto_hard_validation,1.0137,
+E2-033,more_urgent,3,0,auto_hard_validation,1.037,negation_count_changed 4->5
+E2-033,neutral,3,0,auto_hard_validation,1.0593,negation_count_changed 4->5
+E2-033,warmer,2,0,auto_hard_validation,1.1333,negation_count_changed 4->7
+E2-034,warmer,2,0,auto_hard_validation,1.1095,"borderline_copy (similarity=0.923, jaccard=0.774) | negation_count_changed 4->5"
+E2-035,more_urgent,1,0,auto_hard_validation,1.1493,negation_count_changed 0->2
+E2-035,neutral,1,0,auto_hard_validation,1.0597,"borderline_copy (similarity=0.925, jaccard=0.767)"
+E2-036,more_urgent,2,0,auto_hard_validation,1.0291,negation_count_changed 3->2
+E2-036,neutral,2,0,auto_hard_validation,1.0988,
+E2-037,colder,3,0,human_both_valid,0.9697,action_maybe_removed: click | negation_count_changed 2->1
+E2-037,less_urgent,1,0,human_both_valid,1.0667,
+E2-037,more_urgent,3,0,human_both_valid,0.9879,more_urgent_direction_weak (urgency delta=0)
+E2-037,warmer,2,0,human_both_valid,1.0364,
+E2-038,less_urgent,3,0,human_both_valid,0.974,negation_count_changed 2->1
+E2-039,colder,2,0,human_both_valid,1.0411,colder_direction_weak (warmth delta=0)
+E2-039,less_urgent,2,0,auto_hard_validation,1.0753,less_urgent_direction_weak (urgency delta=0)
+E2-039,more_urgent,2,0,auto_hard_validation,1.0274,"borderline_copy (similarity=0.906, jaccard=0.734) | action_maybe_removed: download | negation_count_changed 1->2 | more_urgent_direction_weak (urgency delta=0)"
+E2-039,neutral,2,0,auto_hard_validation,1.0616,action_maybe_removed: download
+E2-040,colder,2,1,auto_hard_validation,1.0889,negation_count_changed 4->6 | colder_direction_weak (warmth delta=0)
+E2-040,less_urgent,2,1,human_both_valid,1.0519,"borderline_copy (similarity=0.920, jaccard=0.854) | less_urgent_direction_weak (urgency delta=0)"
+E2-040,more_urgent,2,1,human_both_valid,1.0593,negation_count_changed 4->5
+E2-040,neutral,2,1,auto_hard_validation,1.0741,negation_count_changed 4->5
+E2-040,warmer,2,1,auto_hard_validation,1.1037,
+E2-041,colder,3,1,auto_hard_validation,1.0674,action_maybe_removed: click | negation_count_changed 1->0 | colder_direction_weak (warmth delta=1)
+E2-041,less_urgent,2,1,auto_hard_validation,1.1292,less_urgent_direction_weak (urgency delta=0)
+E2-041,more_urgent,2,1,auto_hard_validation,0.9888,
+E2-041,neutral,2,1,human_both_valid,0.9719,
+E2-041,warmer,2,1,auto_hard_validation,1.1124,
+E2-042,colder,1,0,auto_hard_validation,0.9403,colder_direction_weak (warmth delta=0)
+E2-042,more_urgent,1,0,auto_hard_validation,0.9701,"borderline_copy (similarity=0.907, jaccard=0.869)"
+E2-042,neutral,1,0,human_both_valid,1.1194,"borderline_copy (similarity=0.914, jaccard=0.701)"
+E2-042,warmer,1,0,auto_hard_validation,1.1343,"borderline_copy (similarity=0.902, jaccard=0.750)"
+E2-043,less_urgent,3,0,auto_hard_validation,1.0706,action_maybe_removed: click
+E2-043,more_urgent,1,0,human_both_valid,1.0157,action_maybe_removed: click | negation_count_changed 4->5
+E2-043,neutral,3,0,auto_hard_validation,1.051,
+E2-043,warmer,1,0,human_both_valid,1.1255,action_maybe_removed: click | negation_count_changed 4->5
+E2-044,colder,1,0,auto_hard_validation,1.1255,negation_count_changed 3->4
+E2-044,more_urgent,1,0,auto_hard_validation,1.0486,negation_count_changed 3->4
+E2-044,neutral,1,0,auto_hard_validation,1.004,
+E2-044,warmer,1,0,auto_hard_validation,1.0891,warmer_direction_weak (warmth delta=0)
+E2-045,colder,2,1,auto_hard_validation,1.043,"action_maybe_removed: click, pay | negation_count_changed 0->1"
+E2-045,less_urgent,2,1,auto_hard_validation,1.043,"borderline_copy (similarity=0.907, jaccard=0.737) | action_maybe_removed: pay | less_urgent_direction_weak (urgency delta=0)"
+E2-045,more_urgent,2,1,auto_hard_validation,0.9785,"borderline_copy (similarity=0.945, jaccard=0.844) | negation_count_changed 0->1"
+E2-045,neutral,2,1,human_both_valid,1.0108,action_maybe_removed: pay
+E2-045,warmer,2,1,auto_hard_validation,1.0323,"borderline_copy (similarity=0.904, jaccard=0.755)"
+E2-046,colder,3,1,auto_hard_validation,1.0457,
+E2-046,less_urgent,3,1,auto_hard_validation,1.0686,paragraph_count_changed by 12
+E2-046,more_urgent,3,1,auto_hard_validation,1.04,paragraph_count_changed by 11
+E2-046,neutral,3,1,human_both_valid,0.9886,paragraph_count_changed by 12
+E2-046,warmer,3,1,auto_hard_validation,1.0629,paragraph_count_changed by 12
+E2-047,colder,3,1,auto_hard_validation,1.0064,action_maybe_removed: call | colder_direction_weak (warmth delta=0)
+E2-047,less_urgent,3,1,auto_hard_validation,1.0192,
+E2-047,more_urgent,3,1,human_both_valid,0.9744,
+E2-047,neutral,3,1,human_both_valid,1.0256,
+E2-047,warmer,1,1,auto_hard_validation,1.1923,
+E2-048,colder,2,1,auto_hard_validation,0.9777,
+E2-048,less_urgent,2,1,auto_hard_validation,1.095,
+E2-048,more_urgent,2,1,auto_hard_validation,0.9218,
+E2-048,neutral,2,1,auto_hard_validation,1.0,negation_count_changed 2->1
+E2-048,warmer,2,1,auto_hard_validation,1.1508,
+E2-049,colder,3,0,auto_hard_validation,1.1327,
+E2-049,less_urgent,3,0,human_both_valid,1.1239,less_urgent_direction_weak (urgency delta=0)
+E2-049,more_urgent,3,0,auto_hard_validation,1.1327,
+E2-049,neutral,3,0,human_both_valid,1.0442,
+E2-050,less_urgent,2,0,auto_hard_validation,1.0662,"borderline_copy (similarity=0.903, jaccard=0.802) | less_urgent_direction_weak (urgency delta=0)"
+E2-050,more_urgent,2,0,human_both_valid,1.0956,negation_count_changed 4->6 | more_urgent_direction_weak (urgency delta=0)
+E2-050,neutral,2,0,human_both_valid,1.0588,negation_count_changed 4->5
+E2-050,warmer,2,0,human_both_valid,1.0588,"borderline_copy (similarity=0.938, jaccard=0.788) | negation_count_changed 4->5"
+E2-051,colder,1,1,auto_hard_validation,0.9827,action_maybe_removed: click
+E2-051,less_urgent,1,1,auto_hard_validation,1.0173,promise_maybe_removed: guarantee | less_urgent_direction_weak (urgency delta=0)
+E2-051,more_urgent,1,1,auto_hard_validation,0.9769,negation_count_changed 4->5 | more_urgent_direction_weak (urgency delta=0)
+E2-051,neutral,1,1,auto_hard_validation,1.0116,
+E2-051,warmer,1,1,auto_hard_validation,0.9769,
+E2-052,colder,3,1,auto_hard_validation,1.1,action_maybe_removed: pay | subject_low_similarity 0.26 | colder_direction_weak (warmth delta=0)
+E2-052,less_urgent,3,1,auto_hard_validation,1.0625,subject_low_similarity 0.19
+E2-052,more_urgent,3,1,human_both_valid,0.9875,
+E2-052,neutral,3,1,human_both_valid,0.9625,action_maybe_removed: pay | subject_low_similarity 0.24
+E2-052,warmer,3,1,auto_hard_validation,0.9875,action_maybe_removed: pay | subject_low_similarity 0.26
+E2-053,colder,3,1,auto_hard_validation,1.1077,action_maybe_removed: click | negation_count_changed 0->1 | colder_direction_weak (warmth delta=0)
+E2-053,less_urgent,3,1,human_both_valid,1.1692,"borderline_copy (similarity=0.934, jaccard=0.835) | less_urgent_direction_weak (urgency delta=0)"
+E2-053,more_urgent,3,1,human_both_valid,1.0308,negation_count_changed 0->1 | more_urgent_direction_weak (urgency delta=0)
+E2-053,neutral,3,1,auto_hard_validation,1.1692,negation_count_changed 0->3
+E2-053,warmer,3,1,auto_hard_validation,1.2,negation_count_changed 0->2
+E2-054,colder,3,1,auto_hard_validation,0.9306,
+E2-054,less_urgent,3,1,auto_hard_validation,1.0417,action_maybe_removed: click | negation_count_changed 1->3 | less_urgent_direction_weak (urgency delta=0)
+E2-054,more_urgent,3,1,human_both_valid,1.0208,action_maybe_removed: pay
+E2-054,neutral,3,1,auto_hard_validation,0.9583,action_maybe_removed: pay
+E2-054,warmer,3,1,auto_hard_validation,1.1597,negation_count_changed 1->2
+E2-055,less_urgent,3,0,auto_hard_validation,1.165,less_urgent_direction_weak (urgency delta=0)
+E2-055,more_urgent,3,0,auto_hard_validation,1.0194,"borderline_copy (similarity=0.906, jaccard=0.815)"
+E2-055,neutral,2,0,auto_hard_validation,1.0097,
+E2-055,warmer,3,0,auto_hard_validation,1.1553,
+E2-056,colder,1,0,auto_hard_validation,1.1309,action_maybe_removed: click | promise_maybe_removed: free | negation_count_changed 3->4
+E2-056,less_urgent,1,0,auto_hard_validation,1.0733,negation_count_changed 3->7
+E2-056,more_urgent,2,0,auto_hard_validation,0.9162,"borderline_copy (similarity=0.904, jaccard=0.826) | negation_count_changed 3->4 | more_urgent_direction_weak (urgency delta=0)"
+E2-056,warmer,1,0,human_both_valid,1.1518,negation_count_changed 3->4
+E2-057,colder,2,1,auto_hard_validation,1.0381,action_maybe_removed: submit
+E2-057,less_urgent,2,1,auto_hard_validation,1.119,
+E2-057,more_urgent,1,1,auto_hard_validation,1.0905,negation_count_changed 3->5 | more_urgent_direction_weak (urgency delta=0)
+E2-057,neutral,2,1,auto_hard_validation,1.0714,paragraph_count_changed by 3
+E2-057,warmer,2,1,auto_hard_validation,1.0905,
+E2-058,colder,3,0,human_both_valid,1.0881,action_maybe_removed: submit
+E2-058,more_urgent,3,0,auto_hard_validation,1.0421,negation_count_changed 8->9
+E2-058,neutral,3,0,auto_hard_validation,1.0307,
+E2-059,colder,2,1,human_both_valid,1.1224,action_maybe_removed: download | colder_direction_weak (warmth delta=0)
+E2-059,less_urgent,2,1,auto_hard_validation,1.1497,less_urgent_direction_weak (urgency delta=0)
+E2-059,more_urgent,1,1,human_both_valid,1.0272,negation_count_changed 1->2 | more_urgent_direction_weak (urgency delta=0)
+E2-059,neutral,2,1,auto_hard_validation,1.0544,action_maybe_removed: download
+E2-059,warmer,2,1,auto_hard_validation,1.0204,"borderline_copy (similarity=0.919, jaccard=0.766)"
+E2-060,colder,2,1,auto_hard_validation,1.0536,action_maybe_removed: submit
+E2-060,less_urgent,2,1,auto_hard_validation,1.1429,less_urgent_direction_weak (urgency delta=0)
+E2-060,more_urgent,2,1,auto_hard_validation,1.0268,more_urgent_direction_weak (urgency delta=0)
+E2-060,neutral,2,1,auto_hard_validation,1.0,
+E2-060,warmer,2,1,human_both_valid,1.1786,
+E2-061,colder,1,0,human_both_valid,0.9946,"borderline_copy (similarity=0.946, jaccard=0.867) | subject_unchanged | colder_direction_weak (warmth delta=0)"
+E2-062,colder,3,0,human_both_valid,1.0359,action_maybe_removed: submit | negation_count_changed 4->3
+E2-062,more_urgent,3,0,auto_hard_validation,1.0667,"borderline_copy (similarity=0.916, jaccard=0.812) | more_urgent_direction_weak (urgency delta=0)"
+E2-062,neutral,3,0,human_both_valid,1.0308,negation_count_changed 4->3
+E2-062,warmer,3,0,auto_hard_validation,1.1333,"borderline_copy (similarity=0.908, jaccard=0.830) | negation_count_changed 4->3"
+E2-063,colder,2,1,auto_hard_validation,1.0235,"action_maybe_removed: click, pay"
+E2-063,less_urgent,2,1,auto_hard_validation,1.057,less_urgent_direction_weak (urgency delta=0)
+E2-063,more_urgent,2,1,human_both_valid,0.9866,paragraph_count_changed by 4
+E2-063,neutral,2,1,human_both_valid,1.0369,
+E2-063,warmer,2,1,human_both_valid,1.0268,"borderline_copy (similarity=0.920, jaccard=0.826)"
+E2-064,colder,2,0,auto_hard_validation,1.1029,colder_direction_weak (warmth delta=0)
+E2-064,less_urgent,2,0,auto_hard_validation,1.1912,
+E2-064,more_urgent,2,0,auto_hard_validation,0.9265,"borderline_copy (similarity=0.916, jaccard=0.756)"
+E2-064,warmer,2,0,auto_hard_validation,1.1471,"borderline_copy (similarity=0.918, jaccard=0.759)"
+E2-065,colder,2,0,auto_hard_validation,0.9828,negation_count_changed 0->1
+E2-065,less_urgent,2,0,human_both_valid,1.0603,
+E2-065,more_urgent,2,0,auto_hard_validation,1.0259,negation_count_changed 0->1 | more_urgent_direction_weak (urgency delta=0)
+E2-065,neutral,2,0,auto_hard_validation,1.1638,negation_count_changed 0->1
+E2-066,colder,1,0,auto_hard_validation,1.0677,
+E2-066,more_urgent,1,0,auto_hard_validation,1.0451,"borderline_copy (similarity=0.900, jaccard=0.798) | more_urgent_direction_weak (urgency delta=0)"
+E2-066,neutral,1,0,auto_hard_validation,1.0677,
+E2-066,warmer,1,0,human_both_valid,1.1203,"borderline_copy (similarity=0.906, jaccard=0.759)"
+E2-067,colder,2,1,auto_hard_validation,1.0106,
+E2-067,less_urgent,2,1,auto_hard_validation,1.0426,less_urgent_direction_weak (urgency delta=0)
+E2-067,more_urgent,2,1,human_both_valid,0.9468,sentence_ratio 2.00
+E2-067,neutral,2,1,auto_hard_validation,1.0,
+E2-067,warmer,2,1,auto_hard_validation,1.0213,warmer_direction_weak (warmth delta=0)
+E2-068,colder,3,1,auto_hard_validation,0.9175,"borderline_copy (similarity=0.912, jaccard=0.784)"
+E2-068,less_urgent,3,1,auto_hard_validation,1.0206,"borderline_copy (similarity=0.901, jaccard=0.711) | action_maybe_removed: click | negation_count_changed 0->1 | less_urgent_direction_weak (urgency delta=0)"
+E2-068,more_urgent,3,1,auto_hard_validation,0.9381,
+E2-068,neutral,3,1,human_both_valid,1.0412,action_maybe_removed: click
+E2-068,warmer,3,1,auto_hard_validation,1.1753,"borderline_copy (similarity=0.907, jaccard=0.720) | negation_count_changed 0->1"
+E2-069,colder,2,1,auto_hard_validation,1.0531,action_maybe_removed: click | colder_direction_weak (warmth delta=0)
+E2-069,less_urgent,2,1,auto_hard_validation,1.0735,negation_count_changed 4->3
+E2-069,more_urgent,2,1,auto_hard_validation,0.9918,action_maybe_removed: click
+E2-069,neutral,2,1,human_both_valid,1.0,negation_count_changed 4->3
+E2-069,warmer,2,1,auto_hard_validation,1.0204,
+E2-070,colder,3,1,human_both_valid,1.033,promise_maybe_removed: free | negation_count_changed 1->3 | colder_direction_weak (warmth delta=0)
+E2-070,less_urgent,3,1,human_both_valid,1.033,negation_count_changed 1->2 | less_urgent_direction_weak (urgency delta=0)
+E2-070,more_urgent,3,1,human_both_valid,0.9451,more_urgent_direction_weak (urgency delta=0)
+E2-070,neutral,3,1,human_both_valid,1.022,promise_maybe_removed: free | negation_count_changed 1->2
+E2-070,warmer,3,1,auto_hard_validation,1.1978,negation_count_changed 1->2
+E2-071,colder,2,1,auto_hard_validation,1.0748,sentence_ratio 1.90 | negation_count_changed 8->7
+E2-071,less_urgent,2,1,human_both_valid,1.1973,less_urgent_direction_weak (urgency delta=0)
+E2-071,more_urgent,2,1,auto_hard_validation,1.1497,sentence_ratio 1.80
+E2-071,neutral,2,1,auto_hard_validation,1.1497,
+E2-071,warmer,2,1,human_both_valid,1.1837,
+E2-072,colder,1,1,auto_hard_validation,1.0,colder_direction_weak (warmth delta=0)
+E2-072,less_urgent,1,1,auto_hard_validation,1.0063,
+E2-072,more_urgent,3,1,auto_hard_validation,0.981,negation_count_changed 0->1 | more_urgent_direction_weak (urgency delta=0)
+E2-072,neutral,1,1,auto_hard_validation,1.0443,negation_count_changed 0->1
+E2-072,warmer,1,1,auto_hard_validation,1.1203,
+E2-073,colder,1,0,human_both_valid,1.1386,action_maybe_removed: click | colder_direction_weak (warmth delta=0)
+E2-073,more_urgent,1,0,auto_hard_validation,1.1287,
+E2-073,neutral,1,0,human_both_valid,1.1386,
+E2-074,colder,1,1,auto_hard_validation,0.9877,action_maybe_removed: click | colder_direction_weak (warmth delta=0)
+E2-074,less_urgent,1,1,human_both_valid,1.0988,less_urgent_direction_weak (urgency delta=0)
+E2-074,more_urgent,1,1,auto_hard_validation,1.0741,"borderline_copy (similarity=0.911, jaccard=0.807) | negation_count_changed 0->1"
+E2-074,neutral,1,1,human_both_valid,1.0247,
+E2-074,warmer,1,1,auto_hard_validation,1.0988,"borderline_copy (similarity=0.900, jaccard=0.741)"
+E2-075,colder,1,0,auto_hard_validation,1.1314,action_maybe_removed: click
+E2-075,more_urgent,1,0,auto_hard_validation,1.1314,negation_count_changed 4->5
+E2-075,neutral,2,0,auto_hard_validation,1.0584,
+E2-075,warmer,1,0,auto_hard_validation,1.1168,
+E2-076,less_urgent,2,0,auto_hard_validation,1.0373,negation_count_changed 3->4 | less_urgent_direction_weak (urgency delta=0)
+E2-076,more_urgent,3,0,auto_hard_validation,0.9478,negation_count_changed 3->5
+E2-076,neutral,1,0,human_both_valid,0.9925,negation_count_changed 3->5
+E2-076,warmer,2,0,human_both_valid,1.097,negation_count_changed 3->4
+E2-077,colder,1,1,auto_hard_validation,1.0127,action_maybe_removed: submit | negation_count_changed 2->1 | colder_direction_weak (warmth delta=0)
+E2-077,less_urgent,1,1,human_both_valid,1.0802,action_maybe_removed: submit
+E2-077,more_urgent,1,1,auto_hard_validation,1.0,action_maybe_removed: submit | negation_count_changed 2->4 | more_urgent_direction_weak (urgency delta=0)
+E2-077,neutral,1,1,auto_hard_validation,1.038,action_maybe_removed: submit
+E2-077,warmer,1,1,human_both_valid,1.0928,action_maybe_removed: submit
+E2-078,colder,1,1,auto_hard_validation,1.0755,action_maybe_removed: download | colder_direction_weak (warmth delta=0)
+E2-078,less_urgent,3,1,human_both_valid,1.1447,"borderline_copy (similarity=0.903, jaccard=0.812) | less_urgent_direction_weak (urgency delta=0)"
+E2-078,more_urgent,1,1,auto_hard_validation,1.0377,"borderline_copy (similarity=0.913, jaccard=0.753)"
+E2-078,neutral,1,1,auto_hard_validation,1.044,"borderline_copy (similarity=0.907, jaccard=0.698)"
+E2-078,warmer,1,1,auto_hard_validation,1.0943,"borderline_copy (similarity=0.936, jaccard=0.855)"
+E2-079,more_urgent,3,0,auto_hard_validation,1.0673,negation_count_changed 1->2 | more_urgent_direction_weak (urgency delta=0)
+E2-079,neutral,3,0,auto_hard_validation,1.0288,"borderline_copy (similarity=0.922, jaccard=0.771)"
+E2-080,colder,1,1,auto_hard_validation,1.1579,promise_maybe_removed: free | negation_count_changed 3->4 | colder_direction_weak (warmth delta=0)
+E2-080,less_urgent,1,1,auto_hard_validation,1.0947,promise_maybe_removed: free | negation_count_changed 3->4 | less_urgent_direction_weak (urgency delta=0)
+E2-080,more_urgent,3,1,human_both_valid,1.0947,promise_maybe_removed: free
+E2-080,neutral,1,1,auto_hard_validation,1.0737,promise_maybe_removed: free | negation_count_changed 3->4
+E2-080,warmer,1,1,auto_hard_validation,1.1684,negation_count_changed 3->2
+E2-081,colder,2,1,human_both_valid,1.1204,action_maybe_removed: call | colder_direction_weak (warmth delta=0)
+E2-081,less_urgent,2,1,human_both_valid,1.0741,less_urgent_direction_weak (urgency delta=0)
+E2-081,more_urgent,2,1,auto_hard_validation,1.1852,negation_count_changed 5->2
+E2-081,neutral,2,1,auto_hard_validation,1.1481,
+E2-081,warmer,2,1,auto_hard_validation,1.1759,
+E2-082,colder,2,1,human_both_valid,1.0253,colder_direction_weak (warmth delta=0)
+E2-082,less_urgent,2,1,auto_hard_validation,1.0443,less_urgent_direction_weak (urgency delta=1)
+E2-082,more_urgent,2,1,human_both_valid,0.981,
+E2-082,neutral,2,1,auto_hard_validation,0.9873,
+E2-082,warmer,2,1,auto_hard_validation,1.1076,
+E2-083,colder,3,1,auto_hard_validation,1.1852,colder_direction_weak (warmth delta=0)
+E2-083,less_urgent,2,1,auto_hard_validation,1.1667,negation_count_changed 3->2 | less_urgent_direction_weak (urgency delta=0)
+E2-083,more_urgent,2,1,auto_hard_validation,1.1481,more_urgent_direction_weak (urgency delta=0)
+E2-083,neutral,2,1,auto_hard_validation,1.1852,
+E2-083,warmer,2,1,auto_hard_validation,1.1667,
+E2-084,colder,2,1,auto_hard_validation,1.0462,"action_maybe_removed: click, submit | threat_maybe_removed: lock | negation_count_changed 1->0 | colder_direction_weak (warmth delta=1)"
+E2-084,less_urgent,2,1,auto_hard_validation,1.0154,action_maybe_removed: submit | negation_count_changed 1->0
+E2-084,more_urgent,2,1,auto_hard_validation,1.0923,
+E2-084,neutral,2,1,auto_hard_validation,0.9385,action_maybe_removed: submit | threat_maybe_removed: lock
+E2-084,warmer,1,1,auto_hard_validation,1.1385,
+E2-085,colder,2,1,human_both_valid,1.1111,action_maybe_removed: submit | negation_count_changed 0->1
+E2-085,less_urgent,2,1,auto_hard_validation,1.1852,negation_count_changed 0->1 | less_urgent_direction_weak (urgency delta=0)
+E2-085,more_urgent,2,1,auto_hard_validation,1.0247,action_maybe_removed: submit | negation_count_changed 0->2 | more_urgent_direction_weak (urgency delta=0)
+E2-085,neutral,2,1,human_both_valid,1.0864,action_maybe_removed: submit | negation_count_changed 0->1
+E2-085,warmer,2,1,auto_hard_validation,1.1358,"borderline_copy (similarity=0.926, jaccard=0.817) | negation_count_changed 0->2"
+E2-086,colder,1,1,human_both_valid,1.0063,colder_direction_weak (warmth delta=0)
+E2-086,less_urgent,1,1,human_both_valid,1.0755,negation_count_changed 5->6 | less_urgent_direction_weak (urgency delta=0)
+E2-086,more_urgent,2,1,human_both_valid,0.9497,
+E2-086,neutral,1,1,auto_hard_validation,1.0,
+E2-086,warmer,1,1,auto_hard_validation,1.0252,
+E2-087,colder,2,1,auto_hard_validation,1.0748,sentence_ratio 1.90 | paragraph_count_changed by 3
+E2-087,less_urgent,2,1,auto_hard_validation,1.1701,negation_count_changed 8->7 | less_urgent_direction_weak (urgency delta=0)
+E2-087,more_urgent,2,1,human_both_valid,1.0884,
+E2-087,neutral,2,1,auto_hard_validation,1.0748,negation_count_changed 8->7
+E2-087,warmer,1,1,human_both_valid,1.1497,
+E2-088,less_urgent,3,0,auto_hard_validation,1.0562,
+E2-088,more_urgent,1,0,human_both_valid,1.0813,action_maybe_removed: click | more_urgent_direction_weak (urgency delta=-1)
+E2-088,neutral,3,0,auto_hard_validation,1.0625,action_maybe_removed: click
+E2-088,warmer,3,0,auto_hard_validation,1.175,
+E2-089,colder,1,1,auto_hard_validation,1.0538,
+E2-089,less_urgent,1,1,auto_hard_validation,1.0269,promise_maybe_removed: guarantee | less_urgent_direction_weak (urgency delta=0)
+E2-089,more_urgent,1,1,auto_hard_validation,0.9946,negation_count_changed 4->5
+E2-089,neutral,1,1,auto_hard_validation,0.9462,promise_maybe_removed: guarantee
+E2-089,warmer,1,1,human_both_valid,0.9409,
+E2-090,colder,1,1,auto_hard_validation,1.1705,promise_maybe_removed: free | colder_direction_weak (warmth delta=0)
+E2-090,less_urgent,1,1,auto_hard_validation,1.1473,less_urgent_direction_weak (urgency delta=0)
+E2-090,more_urgent,1,1,human_both_valid,1.0543,negation_count_changed 0->1 | more_urgent_direction_weak (urgency delta=0)
+E2-090,neutral,1,1,auto_hard_validation,1.0698,promise_maybe_removed: free
+E2-090,warmer,1,1,auto_hard_validation,1.1783,
+E2-091,colder,3,1,auto_hard_validation,1.0085,action_maybe_removed: click | negation_count_changed 4->3
+E2-091,less_urgent,3,1,human_both_valid,1.1525,negation_count_changed 4->3 | subject_low_similarity 0.30 | less_urgent_direction_weak (urgency delta=0)
+E2-091,more_urgent,3,1,human_both_valid,0.9407,
+E2-091,neutral,3,1,auto_hard_validation,1.0508,negation_count_changed 4->3
+E2-091,warmer,3,1,auto_hard_validation,1.0847,negation_count_changed 4->3
+E2-092,colder,2,0,auto_hard_validation,1.0959,colder_direction_weak (warmth delta=0)
+E2-092,more_urgent,2,0,auto_hard_validation,1.0685,negation_count_changed 0->2 | more_urgent_direction_weak (urgency delta=0)
+E2-092,neutral,2,0,auto_hard_validation,1.1233,
+E2-093,less_urgent,2,0,human_both_valid,1.1045,"borderline_copy (similarity=0.916, jaccard=0.739) | less_urgent_direction_weak (urgency delta=0)"
+E2-093,more_urgent,2,0,auto_hard_validation,1.0149,
+E2-093,neutral,2,0,human_both_valid,1.1791,promise_maybe_removed: free | negation_count_changed 0->1
+E2-094,colder,3,1,pi_adjudicated_valid,0.9442,action_maybe_removed: click | negation_count_changed 1->0 | colder_direction_weak (warmth delta=1)
+E2-094,less_urgent,3,1,auto_hard_validation,1.1523,less_urgent_direction_weak (urgency delta=0)
+E2-094,more_urgent,3,1,auto_hard_validation,1.0761,negation_count_changed 1->2
+E2-094,neutral,3,1,auto_hard_validation,0.9594,
+E2-094,warmer,3,1,auto_hard_validation,1.0711,negation_count_changed 1->2
+E2-095,colder,3,1,human_both_valid,1.1702,action_maybe_removed: click | colder_direction_weak (warmth delta=0)
+E2-095,less_urgent,1,1,human_both_valid,1.1596,less_urgent_direction_weak (urgency delta=0)
+E2-095,more_urgent,1,1,auto_hard_validation,1.1489,more_urgent_direction_weak (urgency delta=0)
+E2-095,neutral,3,1,auto_hard_validation,1.0319,
+E2-095,warmer,1,1,human_both_valid,1.1277,
+E2-096,more_urgent,1,0,auto_hard_validation,1.1343,negation_count_changed 0->2
+E2-096,neutral,1,0,auto_hard_validation,0.9403,
+E2-096,warmer,2,0,human_both_valid,1.1642,"borderline_copy (similarity=0.901, jaccard=0.727)"
+E2-097,colder,2,0,auto_hard_validation,0.9506,action_maybe_removed: click | colder_direction_weak (warmth delta=1)
+E2-097,less_urgent,2,0,human_both_valid,1.1605,"borderline_copy (similarity=0.900, jaccard=0.735) | less_urgent_direction_weak (urgency delta=0)"
+E2-097,more_urgent,2,0,auto_hard_validation,1.037,negation_count_changed 0->1
+E2-097,neutral,2,0,auto_hard_validation,1.037,"borderline_copy (similarity=0.907, jaccard=0.698)"
+E2-098,colder,1,1,auto_hard_validation,1.1138,action_maybe_removed: click | negation_count_changed 4->6
+E2-098,less_urgent,1,1,human_both_valid,1.1198,negation_count_changed 4->6 | less_urgent_direction_weak (urgency delta=0)
+E2-098,more_urgent,1,1,auto_hard_validation,1.012,action_maybe_removed: click | negation_count_changed 4->6
+E2-098,neutral,1,1,human_both_valid,1.0778,action_maybe_removed: click | negation_count_changed 4->7
+E2-098,warmer,1,1,auto_hard_validation,1.0838,negation_count_changed 4->3
+E2-099,colder,2,1,human_both_valid,1.1385,action_maybe_removed: click | negation_count_changed 1->2
+E2-099,less_urgent,2,1,auto_hard_validation,1.1538,negation_count_changed 1->2
+E2-099,more_urgent,2,1,auto_hard_validation,0.9923,negation_count_changed 1->2
+E2-099,neutral,2,1,auto_hard_validation,1.0692,negation_count_changed 1->2
+E2-099,warmer,2,1,auto_hard_validation,1.1231,
+E2-100,colder,2,0,auto_hard_validation,0.95,colder_direction_weak (warmth delta=0)
+E2-100,more_urgent,2,0,auto_hard_validation,1.025,"borderline_copy (similarity=0.915, jaccard=0.830) | negation_count_changed 0->2 | more_urgent_direction_weak (urgency delta=0)"
+E2-100,neutral,2,0,human_both_valid,1.0625,
+E2-100,warmer,1,0,auto_hard_validation,1.0875,"borderline_copy (similarity=0.915, jaccard=0.731) | warmer_direction_weak (warmth delta=0)"
+E2-101,colder,2,1,auto_hard_validation,1.024,action_maybe_removed: pay
+E2-101,less_urgent,2,1,human_both_valid,1.0898,"borderline_copy (similarity=0.912, jaccard=0.662) | less_urgent_direction_weak (urgency delta=0)"
+E2-101,more_urgent,2,1,human_both_valid,1.0479,"borderline_copy (similarity=0.914, jaccard=0.654) | promise_maybe_removed: discount | negation_count_changed 0->1"
+E2-101,neutral,2,1,auto_hard_validation,1.0419,
+E2-101,warmer,2,1,human_both_valid,1.1497,
+E2-102,colder,1,1,auto_hard_validation,0.9427,colder_direction_weak (warmth delta=0)
+E2-102,less_urgent,1,1,auto_hard_validation,1.0318,
+E2-102,more_urgent,1,1,human_both_valid,0.9873,
+E2-102,neutral,1,1,human_both_valid,1.0191,negation_count_changed 0->1
+E2-102,warmer,1,1,human_both_valid,1.121,
+E2-103,colder,3,1,auto_hard_validation,1.1228,
+E2-103,less_urgent,1,1,human_both_valid,1.1579,
+E2-103,more_urgent,1,1,auto_hard_validation,1.1404,negation_count_changed 0->1 | more_urgent_direction_weak (urgency delta=0)
+E2-103,neutral,1,1,human_both_valid,1.0877,action_maybe_removed: submit
+E2-103,warmer,1,1,auto_hard_validation,1.193,
+E2-104,colder,1,1,auto_hard_validation,1.1609,colder_direction_weak (warmth delta=0)
+E2-104,less_urgent,1,1,auto_hard_validation,1.1954,less_urgent_direction_weak (urgency delta=0)
+E2-104,more_urgent,1,1,auto_hard_validation,1.0,negation_count_changed 0->1
+E2-104,neutral,1,1,auto_hard_validation,1.069,
+E2-104,warmer,1,1,human_both_valid,1.1379,negation_count_changed 0->1
+E2-105,more_urgent,2,0,human_both_valid,1.0526,"borderline_copy (similarity=0.931, jaccard=0.831)"
+E2-105,neutral,2,0,auto_hard_validation,1.1447,promise_maybe_removed: free
+E2-105,warmer,2,0,auto_hard_validation,1.1579,negation_count_changed 0->1
+E2-106,colder,2,1,auto_hard_validation,1.057,action_maybe_removed: click | colder_direction_weak (warmth delta=0)
+E2-106,less_urgent,2,1,auto_hard_validation,1.0316,
+E2-106,more_urgent,2,1,auto_hard_validation,1.019,negation_count_changed 0->1 | more_urgent_direction_weak (urgency delta=0)
+E2-106,neutral,2,1,auto_hard_validation,1.0127,"borderline_copy (similarity=0.902, jaccard=0.688)"
+E2-106,warmer,2,1,auto_hard_validation,1.0696,
+E2-107,more_urgent,3,0,auto_hard_validation,1.1277,negation_count_changed 0->1 | more_urgent_direction_weak (urgency delta=0)
+E2-107,neutral,3,0,auto_hard_validation,1.1383,negation_count_changed 0->1
+E2-108,colder,3,1,human_both_valid,1.1803,negation_count_changed 7->9 | subject_low_similarity 0.25 | colder_direction_weak (warmth delta=0)
+E2-108,less_urgent,3,1,human_both_valid,1.1926,less_urgent_direction_weak (urgency delta=0)
+E2-108,more_urgent,3,1,auto_hard_validation,1.1762,negation_count_changed 7->8 | more_urgent_direction_weak (urgency delta=0)
+E2-108,neutral,3,1,human_both_valid,1.127,negation_count_changed 7->9
+E2-108,warmer,2,1,auto_hard_validation,1.1844,negation_count_changed 7->6
+E2-109,colder,2,0,human_both_valid,1.0149,
+E2-109,less_urgent,2,0,auto_hard_validation,1.1493,"borderline_copy (similarity=0.916, jaccard=0.724) | less_urgent_direction_weak (urgency delta=0)"
+E2-109,more_urgent,2,0,auto_hard_validation,1.0,"borderline_copy (similarity=0.937, jaccard=0.859)"
+E2-109,neutral,2,0,auto_hard_validation,1.0746,"borderline_copy (similarity=0.919, jaccard=0.713) | promise_maybe_removed: guarantee"
+E2-110,colder,2,0,auto_hard_validation,1.05,promise_maybe_removed: free | negation_count_changed 0->1 | colder_direction_weak (warmth delta=1)
+E2-110,more_urgent,2,0,auto_hard_validation,1.1125,negation_count_changed 0->1
+E2-110,neutral,2,0,auto_hard_validation,1.1,
+E2-111,colder,1,1,auto_hard_validation,0.9623,
+E2-111,less_urgent,1,1,human_both_valid,1.0818,action_maybe_removed: pay | negation_count_changed 1->2 | less_urgent_direction_weak (urgency delta=0)
+E2-111,more_urgent,1,1,human_both_valid,0.9308,action_maybe_removed: pay | negation_count_changed 1->2
+E2-111,neutral,1,1,auto_hard_validation,0.9434,action_maybe_removed: pay
+E2-111,warmer,1,1,auto_hard_validation,1.0,
+E2-112,colder,3,0,auto_hard_validation,1.1241,action_maybe_removed: pay
+E2-112,more_urgent,1,0,auto_hard_validation,1.0219,negation_count_changed 2->5
+E2-112,neutral,3,0,human_both_valid,1.0365,action_maybe_removed: pay
+E2-112,warmer,3,0,human_both_valid,1.1387,action_maybe_removed: pay
+E2-113,more_urgent,3,0,human_both_valid,1.0,"borderline_copy (similarity=0.918, jaccard=0.852) | negation_count_changed 0->1 | more_urgent_direction_weak (urgency delta=0)"
+E2-113,neutral,3,0,auto_hard_validation,1.1493,promise_maybe_removed: free | negation_count_changed 0->1
+E2-114,colder,2,1,auto_hard_validation,0.8624,"action_maybe_removed: click, submit"
+E2-114,less_urgent,2,1,human_both_valid,1.0734,less_urgent_direction_weak (urgency delta=0)
+E2-114,more_urgent,2,1,auto_hard_validation,0.9633,
+E2-114,neutral,2,1,human_both_valid,1.0092,
+E2-114,warmer,2,1,auto_hard_validation,1.0917,
+E2-115,colder,3,1,auto_hard_validation,1.0,negation_count_changed 0->1 | colder_direction_weak (warmth delta=0)
+E2-115,less_urgent,3,1,auto_hard_validation,1.1806,negation_count_changed 0->1
+E2-115,more_urgent,3,1,auto_hard_validation,1.0972,negation_count_changed 0->2 | more_urgent_direction_weak (urgency delta=0)
+E2-115,neutral,3,1,human_both_valid,0.9861,negation_count_changed 0->1
+E2-115,warmer,3,1,human_both_valid,1.0833,negation_count_changed 0->2
+E2-116,colder,1,0,auto_hard_validation,1.0896,colder_direction_weak (warmth delta=0)
+E2-116,more_urgent,1,0,auto_hard_validation,0.9403,"borderline_copy (similarity=0.903, jaccard=0.802) | more_urgent_direction_weak (urgency delta=0)"
+E2-116,neutral,1,0,auto_hard_validation,1.1194,"borderline_copy (similarity=0.905, jaccard=0.731)"
+E2-117,colder,1,0,human_both_valid,1.0541,action_maybe_removed: submit
+E2-117,neutral,1,0,auto_hard_validation,1.036,action_maybe_removed: pay
+E2-118,colder,1,1,auto_hard_validation,0.9873,
+E2-118,less_urgent,1,1,auto_hard_validation,1.0443,less_urgent_direction_weak (urgency delta=0)
+E2-118,more_urgent,1,1,auto_hard_validation,0.981,negation_count_changed 3->2
+E2-118,neutral,1,1,auto_hard_validation,0.9937,"borderline_copy (similarity=0.901, jaccard=0.769)"
+E2-118,warmer,1,1,human_both_valid,0.981,
+E2-119,colder,3,1,human_both_valid,1.1519,colder_direction_weak (warmth delta=0)
+E2-119,less_urgent,1,1,auto_hard_validation,1.1392,less_urgent_direction_weak (urgency delta=0)
+E2-119,more_urgent,1,1,human_both_valid,1.1772,more_urgent_direction_weak (urgency delta=0)
+E2-119,neutral,1,1,auto_hard_validation,1.1772,
+E2-119,warmer,1,1,human_both_valid,1.1392,warmer_direction_weak (warmth delta=0)
+E2-120,colder,1,0,auto_hard_validation,1.1042,action_maybe_removed: pay | negation_count_changed 0->1 | colder_direction_weak (warmth delta=0)
+E2-120,more_urgent,2,0,auto_hard_validation,1.0833,negation_count_changed 0->1 | more_urgent_direction_weak (urgency delta=0)
+E2-120,neutral,1,0,auto_hard_validation,1.0833,negation_count_changed 0->1
+E2-120,warmer,1,0,auto_hard_validation,1.1979,
+E2-121,colder,3,1,auto_hard_validation,0.9896,colder_direction_weak (warmth delta=0)
+E2-121,less_urgent,3,1,auto_hard_validation,1.0417,
+E2-121,more_urgent,3,1,human_both_valid,1.0104,negation_count_changed 1->2 | more_urgent_direction_weak (urgency delta=0)
+E2-121,neutral,3,1,human_both_valid,0.9583,negation_count_changed 1->2
+E2-121,warmer,3,1,human_both_valid,1.0417,negation_count_changed 1->2
+E2-122,colder,2,1,auto_hard_validation,1.0426,action_maybe_removed: pay
+E2-122,less_urgent,3,1,auto_hard_validation,1.0709,action_maybe_removed: pay | negation_count_changed 2->3
+E2-122,more_urgent,2,1,human_both_valid,0.9681,negation_count_changed 2->3
+E2-122,neutral,2,1,auto_hard_validation,0.9645,action_maybe_removed: pay | negation_count_changed 2->3
+E2-122,warmer,2,1,human_both_valid,1.0638,action_maybe_removed: pay | negation_count_changed 2->3
+E2-123,more_urgent,3,0,human_both_valid,1.0255,html_markup_detected | more_urgent_direction_weak (urgency delta=0)
+E2-123,neutral,2,0,auto_hard_validation,1.0,html_markup_detected
+E2-123,warmer,2,0,human_both_valid,1.1656,html_markup_detected
+E2-124,colder,3,1,auto_hard_validation,1.0783,negation_count_changed 5->4
+E2-124,less_urgent,2,1,human_both_valid,1.1265,less_urgent_direction_weak (urgency delta=0)
+E2-124,more_urgent,3,1,human_both_valid,1.0361,negation_count_changed 5->6 | more_urgent_direction_weak (urgency delta=0)
+E2-124,neutral,3,1,human_both_valid,1.0663,
+E2-124,warmer,3,1,human_both_valid,1.0783,
+E2-125,colder,3,1,auto_hard_validation,1.0,"action_maybe_removed: call, click | negation_count_changed 0->2 | colder_direction_weak (warmth delta=0)"
+E2-125,less_urgent,3,1,auto_hard_validation,1.1333,action_maybe_removed: click | negation_count_changed 0->4
+E2-125,more_urgent,3,1,auto_hard_validation,1.0381,"borderline_copy (similarity=0.947, jaccard=0.857) | negation_count_changed 0->1 | more_urgent_direction_weak (urgency delta=0)"
+E2-125,neutral,3,1,auto_hard_validation,1.0619,negation_count_changed 0->1
+E2-125,warmer,3,1,auto_hard_validation,1.0714,"borderline_copy (similarity=0.912, jaccard=0.818)"
+E2-126,colder,1,1,auto_hard_validation,1.019,colder_direction_weak (warmth delta=0)
+E2-126,less_urgent,1,1,auto_hard_validation,1.0443,negation_count_changed 0->1
+E2-126,more_urgent,1,1,auto_hard_validation,0.9873,negation_count_changed 0->1 | more_urgent_direction_weak (urgency delta=0)
+E2-126,neutral,1,1,human_both_valid,1.0127,
+E2-126,warmer,1,1,auto_hard_validation,1.0759,
+E2-127,colder,1,1,auto_hard_validation,0.9894,negation_count_changed 1->3 | colder_direction_weak (warmth delta=0)
+E2-127,less_urgent,1,1,auto_hard_validation,1.0638,negation_count_changed 1->2 | less_urgent_direction_weak (urgency delta=0)
+E2-127,more_urgent,1,1,auto_hard_validation,1.0106,negation_count_changed 1->2
+E2-127,neutral,1,1,auto_hard_validation,1.0479,negation_count_changed 1->2
+E2-127,warmer,1,1,auto_hard_validation,1.0638,negation_count_changed 1->3
+E2-128,more_urgent,3,0,auto_hard_validation,0.95,"borderline_copy (similarity=0.935, jaccard=0.827)"
+E2-128,neutral,3,0,auto_hard_validation,1.0125,"borderline_copy (similarity=0.933, jaccard=0.800)"
+E2-129,colder,1,1,auto_hard_validation,1.0577,action_maybe_removed: click
+E2-129,less_urgent,1,1,human_both_valid,1.0641,
+E2-129,more_urgent,1,1,auto_hard_validation,1.0128,negation_count_changed 1->2
+E2-129,neutral,1,1,auto_hard_validation,1.0128,
+E2-129,warmer,1,1,human_both_valid,1.0064,
+E2-130,colder,3,0,human_both_valid,1.0417,
+E2-130,less_urgent,3,0,auto_hard_validation,1.0104,
+E2-130,more_urgent,3,0,auto_hard_validation,1.0104,
+E2-130,neutral,3,0,auto_hard_validation,1.0521,
+E2-131,colder,3,0,human_both_valid,1.0462,action_maybe_removed: click | negation_count_changed 0->1 | colder_direction_weak (warmth delta=0)
+E2-131,less_urgent,1,0,human_both_valid,1.1385,"borderline_copy (similarity=0.917, jaccard=0.829)"
+E2-131,more_urgent,3,0,auto_hard_validation,1.0615,negation_count_changed 0->3
+E2-131,neutral,3,0,auto_hard_validation,1.0154,"borderline_copy (similarity=0.915, jaccard=0.750) | negation_count_changed 0->1"
+E2-132,colder,1,0,auto_hard_validation,1.1026,action_maybe_removed: click | colder_direction_weak (warmth delta=0)
+E2-132,less_urgent,1,0,human_both_valid,1.1538,"borderline_copy (similarity=0.921, jaccard=0.796) | promise_maybe_removed: free | negation_count_changed 0->1"
+E2-132,warmer,3,0,auto_hard_validation,1.1282,"borderline_copy (similarity=0.910, jaccard=0.777) | promise_maybe_removed: free | negation_count_changed 0->1"
+E2-133,less_urgent,2,0,human_both_valid,1.0246,"borderline_copy (similarity=0.921, jaccard=0.753) | less_urgent_direction_weak (urgency delta=0)"
+E2-133,more_urgent,2,0,human_both_valid,1.007,"borderline_copy (similarity=0.924, jaccard=0.819) | negation_count_changed 4->5"
+E2-133,neutral,2,0,auto_hard_validation,1.0035,"borderline_copy (similarity=0.914, jaccard=0.721)"
+E2-134,colder,1,1,auto_hard_validation,1.1375,action_maybe_removed: pay | colder_direction_weak (warmth delta=0)
+E2-134,less_urgent,1,1,auto_hard_validation,1.1125,less_urgent_direction_weak (urgency delta=0)
+E2-134,more_urgent,1,1,human_both_valid,1.0125,"borderline_copy (similarity=0.926, jaccard=0.775) | action_maybe_removed: pay"
+E2-134,neutral,1,1,human_both_valid,1.0125,action_maybe_removed: pay
+E2-134,warmer,1,1,auto_hard_validation,1.0375,action_maybe_removed: pay
+E2-135,colder,2,1,auto_hard_validation,1.0441,action_maybe_removed: call | colder_direction_weak (warmth delta=0)
+E2-135,less_urgent,2,1,human_both_valid,0.9902,less_urgent_direction_weak (urgency delta=0)
+E2-135,more_urgent,2,1,human_both_valid,0.9853,"borderline_copy (similarity=0.949, jaccard=0.883) | negation_count_changed 1->2"
+E2-135,neutral,2,1,auto_hard_validation,0.9706,
+E2-135,warmer,2,1,auto_hard_validation,1.0539,negation_count_changed 1->2
+E2-136,colder,2,1,human_both_valid,0.8807,
+E2-136,less_urgent,2,1,auto_hard_validation,1.0459,less_urgent_direction_weak (urgency delta=0)
+E2-136,more_urgent,2,1,auto_hard_validation,0.9725,negation_count_changed 1->2 | more_urgent_direction_weak (urgency delta=0)
+E2-136,neutral,2,1,auto_hard_validation,1.0459,
+E2-136,warmer,2,1,auto_hard_validation,1.1101,
+E2-137,less_urgent,2,0,auto_hard_validation,1.112,less_urgent_direction_weak (urgency delta=0)
+E2-137,more_urgent,1,0,auto_hard_validation,1.029,negation_count_changed 3->4
+E2-137,neutral,1,0,auto_hard_validation,1.0415,
+E2-138,colder,3,1,auto_hard_validation,0.947,
+E2-138,less_urgent,3,1,auto_hard_validation,1.1325,less_urgent_direction_weak (urgency delta=0)
+E2-138,more_urgent,3,1,auto_hard_validation,0.9801,more_urgent_direction_weak (urgency delta=0)
+E2-138,neutral,3,1,human_both_valid,1.0199,
+E2-138,warmer,3,1,auto_hard_validation,1.1589,
+E2-139,colder,1,1,human_both_valid,1.075,action_maybe_removed: submit
+E2-139,less_urgent,1,1,auto_hard_validation,1.1917,less_urgent_direction_weak (urgency delta=0)
+E2-139,more_urgent,1,1,auto_hard_validation,1.0083,negation_count_changed 4->5 | more_urgent_direction_weak (urgency delta=-1)
+E2-139,neutral,1,1,auto_hard_validation,1.0917,
+E2-139,warmer,1,1,auto_hard_validation,1.0917,
+E2-140,colder,1,1,auto_hard_validation,1.0602,action_maybe_removed: click | negation_count_changed 5->4
+E2-140,less_urgent,1,1,auto_hard_validation,1.0639,negation_count_changed 5->4 | less_urgent_direction_weak (urgency delta=0)
+E2-140,more_urgent,1,1,auto_hard_validation,1.0301,negation_count_changed 5->6 | more_urgent_direction_weak (urgency delta=0)
+E2-140,neutral,2,1,auto_hard_validation,0.9962,action_maybe_removed: click | negation_count_changed 5->4
+E2-140,warmer,1,1,auto_hard_validation,1.0263,"borderline_copy (similarity=0.910, jaccard=0.791) | negation_count_changed 5->4"
+E2-141,colder,1,0,auto_hard_validation,0.9083,
+E2-141,less_urgent,1,0,auto_hard_validation,1.1083,
+E2-141,neutral,1,0,human_both_valid,1.0,
+E2-141,warmer,2,0,auto_hard_validation,1.0917,
+E2-142,colder,1,1,human_both_valid,1.1176,action_maybe_removed: submit
+E2-142,less_urgent,1,1,human_both_valid,1.098,less_urgent_direction_weak (urgency delta=0)
+E2-142,more_urgent,1,1,auto_hard_validation,1.0392,more_urgent_direction_weak (urgency delta=0)
+E2-142,neutral,1,1,auto_hard_validation,1.0327,
+E2-142,warmer,1,1,auto_hard_validation,1.1634,
+E2-143,colder,3,0,auto_hard_validation,1.024,"action_maybe_removed: click, reply, submit"
+E2-143,more_urgent,3,0,human_both_valid,1.064,negation_count_changed 3->7 | more_urgent_direction_weak (urgency delta=0)
+E2-143,neutral,3,0,human_both_valid,1.048,
+E2-143,warmer,3,0,auto_hard_validation,1.168,
+E2-144,colder,1,0,auto_hard_validation,1.0309,action_maybe_removed: submit
+E2-144,more_urgent,2,0,auto_hard_validation,1.0432,"borderline_copy (similarity=0.918, jaccard=0.755) | negation_count_changed 4->5 | more_urgent_direction_weak (urgency delta=0)"
+E2-144,neutral,1,0,auto_hard_validation,1.0494,"borderline_copy (similarity=0.917, jaccard=0.809)"
+E2-145,colder,1,1,human_both_valid,1.0,colder_direction_weak (warmth delta=0)
+E2-145,less_urgent,1,1,auto_hard_validation,1.0592,less_urgent_direction_weak (urgency delta=0)
+E2-145,more_urgent,1,1,auto_hard_validation,0.9822,more_urgent_direction_weak (urgency delta=0)
+E2-145,neutral,1,1,human_both_valid,1.0888,
+E2-145,warmer,1,1,auto_hard_validation,1.0473,
+E2-146,colder,2,0,human_both_valid,1.1458,
+E2-146,more_urgent,2,0,auto_hard_validation,0.9167,negation_count_changed 1->2 | more_urgent_direction_weak (urgency delta=0)
+E2-146,neutral,2,0,auto_hard_validation,0.9896,negation_count_changed 1->2
+E2-147,colder,2,1,auto_hard_validation,0.9456,negation_count_changed 2->1
+E2-147,less_urgent,2,1,auto_hard_validation,1.0136,less_urgent_direction_weak (urgency delta=0)
+E2-147,more_urgent,2,1,human_both_valid,0.9388,"borderline_copy (similarity=0.928, jaccard=0.798)"
+E2-147,neutral,2,1,auto_hard_validation,1.0204,
+E2-147,warmer,2,1,human_both_valid,1.0748,"borderline_copy (similarity=0.918, jaccard=0.792)"
+E2-148,colder,2,0,auto_hard_validation,1.05,
+E2-148,less_urgent,2,0,auto_hard_validation,1.1857,less_urgent_direction_weak (urgency delta=0)
+E2-148,more_urgent,1,0,auto_hard_validation,1.0571,negation_count_changed 3->4 | more_urgent_direction_weak (urgency delta=0)
+E2-148,neutral,2,0,auto_hard_validation,1.0571,
+E2-149,colder,3,0,auto_hard_validation,1.189,action_maybe_removed: click | colder_direction_weak (warmth delta=0)
+E2-149,less_urgent,3,0,human_both_valid,1.1024,negation_count_changed 3->2 | less_urgent_direction_weak (urgency delta=0)
+E2-149,neutral,3,0,auto_hard_validation,1.0787,
+E2-149,warmer,3,0,auto_hard_validation,1.126,
+E2-150,colder,3,0,human_both_valid,1.0903,action_maybe_removed: submit
+E2-150,more_urgent,3,0,auto_hard_validation,1.0452,
+E2-150,neutral,3,0,auto_hard_validation,1.0323,"borderline_copy (similarity=0.903, jaccard=0.723)"
+E2-150,warmer,3,0,auto_hard_validation,1.1548,
+E2-151,colder,1,1,human_both_valid,0.9556,colder_direction_weak (warmth delta=0)
+E2-151,less_urgent,1,1,auto_hard_validation,1.0333,less_urgent_direction_weak (urgency delta=0)
+E2-151,more_urgent,1,1,human_both_valid,0.9944,negation_count_changed 0->1 | more_urgent_direction_weak (urgency delta=0)
+E2-151,neutral,1,1,human_both_valid,1.0056,
+E2-151,warmer,1,1,human_both_valid,1.1056,"borderline_copy (similarity=0.915, jaccard=0.815) | negation_count_changed 0->1"
+E2-152,colder,2,1,auto_hard_validation,1.0175,
+E2-152,less_urgent,3,1,auto_hard_validation,1.1579,
+E2-152,more_urgent,2,1,auto_hard_validation,1.1404,negation_count_changed 0->1 | more_urgent_direction_weak (urgency delta=-2)
+E2-152,neutral,2,1,auto_hard_validation,1.0877,action_maybe_removed: submit
+E2-152,warmer,2,1,auto_hard_validation,1.193,
+E2-153,colder,2,1,auto_hard_validation,0.964,action_maybe_removed: click | colder_direction_weak (warmth delta=1)
+E2-153,less_urgent,2,1,human_both_valid,1.1799,less_urgent_direction_weak (urgency delta=0)
+E2-153,more_urgent,2,1,auto_hard_validation,1.0576,
+E2-153,neutral,1,1,human_both_valid,1.0576,
+E2-153,warmer,2,1,auto_hard_validation,1.1871,
+E2-154,colder,2,1,human_both_valid,1.15,colder_direction_weak (warmth delta=0)
+E2-154,less_urgent,2,1,auto_hard_validation,0.9833,less_urgent_direction_weak (urgency delta=0)
+E2-154,more_urgent,2,1,human_both_valid,0.9833,more_urgent_direction_weak (urgency delta=0)
+E2-154,neutral,2,1,auto_hard_validation,0.9833,
+E2-154,warmer,2,1,auto_hard_validation,1.1333,warmer_direction_weak (warmth delta=0)
+E2-155,colder,2,0,auto_hard_validation,1.0,colder_direction_weak (warmth delta=1)
+E2-155,less_urgent,1,0,auto_hard_validation,1.1083,less_urgent_direction_weak (urgency delta=0)
+E2-155,more_urgent,2,0,auto_hard_validation,0.9809,
+E2-155,warmer,1,0,auto_hard_validation,1.1529,negation_count_changed 3->4
+E2-156,colder,3,1,auto_hard_validation,1.0851,action_maybe_removed: submit
+E2-156,less_urgent,3,1,auto_hard_validation,1.1702,less_urgent_direction_weak (urgency delta=0)
+E2-156,more_urgent,2,1,auto_hard_validation,1.0284,negation_count_changed 4->6 | more_urgent_direction_weak (urgency delta=0)
+E2-156,neutral,3,1,auto_hard_validation,1.0213,
+E2-156,warmer,3,1,auto_hard_validation,1.156,
+E2-157,colder,3,1,auto_hard_validation,0.962,colder_direction_weak (warmth delta=0)
+E2-157,less_urgent,3,1,human_both_valid,0.9747,
+E2-157,more_urgent,3,1,auto_hard_validation,1.0127,negation_count_changed 0->1 | more_urgent_direction_weak (urgency delta=0)
+E2-157,neutral,3,1,human_both_valid,0.9937,
+E2-157,warmer,3,1,auto_hard_validation,1.1266,negation_count_changed 0->1
+E2-158,colder,2,1,human_both_valid,1.0576,action_maybe_removed: submit
+E2-158,less_urgent,2,1,human_both_valid,1.1099,negation_count_changed 10->9 | less_urgent_direction_weak (urgency delta=0)
+E2-158,more_urgent,2,1,human_both_valid,1.0157,negation_count_changed 10->8
+E2-158,neutral,2,1,auto_hard_validation,1.0,
+E2-158,warmer,1,1,auto_hard_validation,1.178,negation_count_changed 10->9
+E2-159,colder,3,0,auto_hard_validation,0.9873,action_maybe_removed: submit | subject_unchanged | colder_direction_weak (warmth delta=0)
+E2-159,less_urgent,3,0,auto_hard_validation,1.0382,action_maybe_removed: submit | subject_unchanged | less_urgent_direction_weak (urgency delta=0)
+E2-159,more_urgent,3,0,auto_hard_validation,0.9299,action_maybe_removed: submit | subject_unchanged
+E2-159,warmer,3,0,auto_hard_validation,0.9745,subject_unchanged
+E2-160,colder,2,1,auto_hard_validation,1.1382,
+E2-160,less_urgent,1,1,auto_hard_validation,1.1842,less_urgent_direction_weak (urgency delta=0)
+E2-160,more_urgent,2,1,auto_hard_validation,1.0263,
+E2-160,neutral,2,1,auto_hard_validation,1.0855,
+E2-160,warmer,2,1,auto_hard_validation,1.1776,
+E2-161,colder,2,1,auto_hard_validation,1.1579,
+E2-161,less_urgent,2,1,auto_hard_validation,1.1754,
+E2-161,more_urgent,2,1,human_both_valid,1.0175,more_urgent_direction_weak (urgency delta=-1)
+E2-161,neutral,1,1,human_both_valid,1.0175,
+E2-161,warmer,2,1,auto_hard_validation,1.1754,"borderline_copy (similarity=0.904, jaccard=0.850)"
+E2-162,colder,1,1,auto_hard_validation,1.0468,action_maybe_removed: submit
+E2-162,less_urgent,1,1,auto_hard_validation,1.0994,less_urgent_direction_weak (urgency delta=0)
+E2-162,more_urgent,1,1,human_both_valid,1.0,paragraph_count_changed by 3 | negation_count_changed 4->5 | subject_low_similarity 0.29 | more_urgent_direction_weak (urgency delta=0)
+E2-162,neutral,1,1,auto_hard_validation,1.0351,
+E2-162,warmer,1,1,auto_hard_validation,1.0351,
+E2-163,colder,3,0,auto_hard_validation,1.1583,
+E2-163,more_urgent,3,0,auto_hard_validation,1.1223,negation_count_changed 3->7 | more_urgent_direction_weak (urgency delta=0)
+E2-163,neutral,3,0,auto_hard_validation,1.0288,
+E2-163,warmer,3,0,auto_hard_validation,1.1799,
+E2-164,colder,1,1,auto_hard_validation,1.0126,negation_count_changed 2->0 | colder_direction_weak (warmth delta=0)
+E2-164,less_urgent,1,1,human_both_valid,1.0755,negation_count_changed 2->0
+E2-164,more_urgent,1,1,auto_hard_validation,1.0566,
+E2-164,neutral,1,1,auto_hard_validation,1.1258,promise_maybe_removed: guarantee | negation_count_changed 2->3
+E2-164,warmer,1,1,auto_hard_validation,1.1509,negation_count_changed 2->3
+E2-165,colder,1,1,auto_hard_validation,1.04,action_maybe_removed: click | negation_count_changed 1->0
+E2-165,less_urgent,2,1,auto_hard_validation,1.184,less_urgent_direction_weak (urgency delta=0)
+E2-165,more_urgent,2,1,auto_hard_validation,1.064,"borderline_copy (similarity=0.916, jaccard=0.746) | action_maybe_removed: click | negation_count_changed 1->2"
+E2-165,neutral,2,1,human_both_valid,1.048,
+E2-165,warmer,2,1,human_both_valid,1.104,
+E2-166,colder,2,0,auto_hard_validation,0.9835,action_maybe_removed: click
+E2-166,less_urgent,2,0,auto_hard_validation,1.157,negation_count_changed 0->1 | less_urgent_direction_weak (urgency delta=0)
+E2-166,more_urgent,2,0,auto_hard_validation,1.0083,"borderline_copy (similarity=0.931, jaccard=0.840)"
+E2-166,neutral,2,0,auto_hard_validation,1.0413,
+E2-167,colder,2,1,human_both_valid,0.9861,negation_count_changed 1->2
+E2-167,less_urgent,2,1,auto_hard_validation,1.0486,negation_count_changed 1->2 | less_urgent_direction_weak (urgency delta=0)
+E2-167,more_urgent,2,1,auto_hard_validation,1.0,action_maybe_removed: pay
+E2-167,neutral,2,1,auto_hard_validation,0.9583,promise_maybe_removed: discount | negation_count_changed 1->0
+E2-167,warmer,2,1,auto_hard_validation,1.0903,action_maybe_removed: pay
+E2-168,less_urgent,1,0,human_both_valid,1.1471,less_urgent_direction_weak (urgency delta=0)
+E2-168,more_urgent,1,0,auto_hard_validation,1.1275,negation_count_changed 2->3 | more_urgent_direction_weak (urgency delta=0)
+E2-168,neutral,1,0,auto_hard_validation,1.1373,
+E2-168,warmer,1,0,auto_hard_validation,1.0098,
+E2-169,colder,1,1,auto_hard_validation,1.0414,negation_count_changed 5->4 | colder_direction_weak (warmth delta=0)
+E2-169,less_urgent,1,1,auto_hard_validation,1.0113,negation_count_changed 5->4 | less_urgent_direction_weak (urgency delta=0)
+E2-169,more_urgent,2,1,human_both_valid,0.9549,negation_count_changed 5->3 | more_urgent_direction_weak (urgency delta=0)
+E2-169,neutral,1,1,auto_hard_validation,1.0338,
+E2-169,warmer,2,1,auto_hard_validation,1.0489,negation_count_changed 5->4
+E2-170,colder,2,1,human_both_valid,1.1028,action_maybe_removed: click
+E2-170,less_urgent,2,1,human_both_valid,1.1402,negation_count_changed 1->2
+E2-170,more_urgent,2,1,auto_hard_validation,1.0841,
+E2-170,neutral,2,1,auto_hard_validation,1.0748,negation_count_changed 1->2
+E2-170,warmer,2,1,human_both_valid,1.1682,
+E2-171,colder,3,0,human_both_valid,0.9907,colder_direction_weak (warmth delta=0)
+E2-171,less_urgent,3,0,auto_hard_validation,1.0278,promise_maybe_removed: free | negation_count_changed 2->3
+E2-171,more_urgent,3,0,auto_hard_validation,0.9815,action_maybe_removed: pay | promise_maybe_removed: free | negation_count_changed 2->4
+E2-171,warmer,3,0,auto_hard_validation,1.0741,promise_maybe_removed: free | negation_count_changed 2->3
+E2-172,more_urgent,2,0,auto_hard_validation,0.9528,negation_count_changed 0->1
+E2-173,colder,2,1,auto_hard_validation,0.9196,negation_count_changed 5->4
+E2-173,less_urgent,2,1,auto_hard_validation,1.0625,negation_count_changed 5->3 | less_urgent_direction_weak (urgency delta=0)
+E2-173,more_urgent,2,1,auto_hard_validation,1.0089,negation_count_changed 5->3
+E2-173,neutral,2,1,auto_hard_validation,1.0625,action_maybe_removed: click | negation_count_changed 5->4
+E2-173,warmer,2,1,human_both_valid,1.0357,
+E2-174,colder,3,1,auto_hard_validation,1.0678,negation_count_changed 4->3
+E2-174,less_urgent,3,1,auto_hard_validation,1.1356,negation_count_changed 4->3 | less_urgent_direction_weak (urgency delta=0)
+E2-174,more_urgent,3,1,auto_hard_validation,1.0254,more_urgent_direction_weak (urgency delta=0)
+E2-174,neutral,3,1,auto_hard_validation,0.9492,
+E2-174,warmer,3,1,auto_hard_validation,1.1525,negation_count_changed 4->3
+E2-175,colder,2,1,auto_hard_validation,0.8807,
+E2-175,less_urgent,2,1,auto_hard_validation,1.0734,less_urgent_direction_weak (urgency delta=0)
+E2-175,more_urgent,2,1,human_both_valid,0.9633,
+E2-175,neutral,2,1,auto_hard_validation,1.0459,
+E2-175,warmer,2,1,auto_hard_validation,1.156,negation_count_changed 1->2
+E2-176,less_urgent,2,0,auto_hard_validation,1.0376,negation_count_changed 5->4 | less_urgent_direction_weak (urgency delta=1)
+E2-176,more_urgent,2,0,human_both_valid,0.9549,more_urgent_direction_weak (urgency delta=0)
+E2-176,neutral,1,0,auto_hard_validation,1.015,
+E2-176,warmer,1,0,auto_hard_validation,1.0,"borderline_copy (similarity=0.907, jaccard=0.815) | negation_count_changed 5->4"
+E2-177,colder,1,1,human_both_valid,1.0887,colder_direction_weak (warmth delta=0)
+E2-177,less_urgent,1,1,human_both_valid,1.1604,less_urgent_direction_weak (urgency delta=0)
+E2-177,more_urgent,1,1,auto_hard_validation,1.0034,"borderline_copy (similarity=0.925, jaccard=0.868) | negation_count_changed 4->3 | more_urgent_direction_weak (urgency delta=0)"
+E2-177,neutral,1,1,human_both_valid,1.0205,
+E2-177,warmer,1,1,auto_hard_validation,1.1229,
+E2-178,colder,2,1,auto_hard_validation,1.1483,negation_count_changed 3->5
+E2-178,less_urgent,2,1,auto_hard_validation,1.134,negation_count_changed 3->5 | less_urgent_direction_weak (urgency delta=0)
+E2-178,more_urgent,2,1,auto_hard_validation,1.0526,"borderline_copy (similarity=0.936, jaccard=0.820)"
+E2-178,neutral,2,1,human_both_valid,1.0287,
+E2-178,warmer,2,1,human_both_valid,1.1483,negation_count_changed 3->4
+E2-179,more_urgent,1,0,human_both_valid,1.0524,
+E2-179,neutral,1,0,auto_hard_validation,1.089,
+E2-180,more_urgent,2,0,auto_hard_validation,1.0746,"borderline_copy (similarity=0.924, jaccard=0.802)"
+E2-180,neutral,2,0,auto_hard_validation,1.1045,
+E2-181,colder,3,0,human_both_valid,1.1241,action_maybe_removed: click
+E2-181,more_urgent,3,0,human_both_valid,1.0657,negation_count_changed 4->7
+E2-181,neutral,3,0,auto_hard_validation,1.1095,negation_count_changed 4->1
+E2-181,warmer,2,0,auto_hard_validation,1.1314,
+E2-182,less_urgent,1,0,auto_hard_validation,1.1825,
+E2-182,more_urgent,1,0,auto_hard_validation,1.0079,negation_count_changed 1->2 | more_urgent_direction_weak (urgency delta=0)
+E2-182,neutral,1,0,auto_hard_validation,1.0873,negation_count_changed 1->2
+E2-182,warmer,1,0,human_both_valid,1.1667,"borderline_copy (similarity=0.922, jaccard=0.788)"
+E2-183,colder,2,1,auto_hard_validation,1.0741,action_maybe_removed: click | colder_direction_weak (warmth delta=0)
+E2-183,less_urgent,2,1,human_both_valid,1.1852,negation_count_changed 4->5 | less_urgent_direction_weak (urgency delta=0)
+E2-183,more_urgent,2,1,human_both_valid,1.1407,negation_count_changed 4->3 | more_urgent_direction_weak (urgency delta=0)
+E2-183,neutral,2,1,human_both_valid,1.1037,negation_count_changed 4->3
+E2-183,warmer,2,1,human_both_valid,1.0593,negation_count_changed 4->5
+E2-184,colder,3,0,auto_hard_validation,1.0726,action_maybe_removed: submit | promise_maybe_removed: free | negation_count_changed 3->4
+E2-184,more_urgent,3,0,human_both_valid,0.9777,negation_count_changed 3->4 | more_urgent_direction_weak (urgency delta=0)
+E2-184,neutral,3,0,human_both_valid,1.0838,promise_maybe_removed: free | negation_count_changed 3->4
+E2-184,warmer,3,0,auto_hard_validation,1.1173,
+E2-185,colder,1,1,human_both_valid,1.1125,"action_maybe_removed: click, pay | colder_direction_weak (warmth delta=0)"
+E2-185,less_urgent,1,1,auto_hard_validation,1.1875,less_urgent_direction_weak (urgency delta=0)
+E2-185,more_urgent,1,1,auto_hard_validation,0.9625,"borderline_copy (similarity=0.944, jaccard=0.851) | action_maybe_removed: pay | more_urgent_direction_weak (urgency delta=0)"
+E2-185,neutral,1,1,human_both_valid,0.975,"borderline_copy (similarity=0.918, jaccard=0.779) | action_maybe_removed: click, pay"
+E2-185,warmer,1,1,auto_hard_validation,1.0,action_maybe_removed: pay
+E2-186,more_urgent,1,0,auto_hard_validation,1.0809,action_maybe_removed: click | negation_count_changed 6->7 | more_urgent_direction_weak (urgency delta=0)
+E2-187,colder,1,1,human_both_valid,1.0892,colder_direction_weak (warmth delta=1)
+E2-187,less_urgent,1,1,auto_hard_validation,1.1592,
+E2-187,more_urgent,1,1,auto_hard_validation,1.0446,
+E2-187,neutral,2,1,auto_hard_validation,1.051,promise_maybe_removed: guarantee
+E2-187,warmer,1,1,human_both_valid,1.1274,"borderline_copy (similarity=0.911, jaccard=0.862)"
+E2-188,colder,3,0,auto_hard_validation,1.1075,action_maybe_removed: submit | colder_direction_weak (warmth delta=0)
+E2-188,more_urgent,1,0,auto_hard_validation,1.0538,negation_count_changed 4->3
+E2-188,neutral,3,0,auto_hard_validation,1.0753,
+E2-188,warmer,1,0,auto_hard_validation,1.129,negation_count_changed 4->5
+E2-189,colder,3,1,auto_hard_validation,0.9207,meta_warning: \bnote:\s*(?:i|this|the)\b | action_maybe_removed: click
+E2-189,less_urgent,3,1,auto_hard_validation,1.0061,negation_count_changed 3->2
+E2-189,more_urgent,3,1,auto_hard_validation,0.9939,meta_warning: \bnote:\s*(?:i|this|the)\b | more_urgent_direction_weak (urgency delta=0)
+E2-189,neutral,2,1,auto_hard_validation,1.0061,
+E2-189,warmer,3,1,human_both_valid,1.1037,
+E2-191,colder,2,1,human_both_valid,1.1786,colder_direction_weak (warmth delta=0)
+E2-191,less_urgent,2,1,human_both_valid,1.131,less_urgent_direction_weak (urgency delta=0)
+E2-191,more_urgent,2,1,human_both_valid,1.0,more_urgent_direction_weak (urgency delta=0)
+E2-191,neutral,2,1,auto_hard_validation,1.0595,
+E2-191,warmer,2,1,auto_hard_validation,0.8095,warmer_direction_weak (warmth delta=0)
+E2-192,colder,2,0,auto_hard_validation,1.0548,promise_maybe_removed: free | colder_direction_weak (warmth delta=0)
+E2-192,more_urgent,2,0,human_both_valid,1.1096,"borderline_copy (similarity=0.937, jaccard=0.844) | negation_count_changed 0->2 | more_urgent_direction_weak (urgency delta=0)"
+E2-192,neutral,2,0,auto_hard_validation,1.0959,"borderline_copy (similarity=0.917, jaccard=0.723)"
+E2-193,colder,1,1,auto_hard_validation,1.0766,action_maybe_removed: click | negation_count_changed 3->4
+E2-193,less_urgent,2,1,auto_hard_validation,1.1609,less_urgent_direction_weak (urgency delta=0)
+E2-193,more_urgent,1,1,auto_hard_validation,1.0421,action_maybe_removed: click
+E2-193,neutral,3,1,auto_hard_validation,1.0192,"borderline_copy (similarity=0.924, jaccard=0.763)"
+E2-193,warmer,1,1,auto_hard_validation,1.1456,negation_count_changed 3->4
+E2-194,colder,1,1,human_both_valid,1.0,
+E2-194,less_urgent,1,1,auto_hard_validation,1.0042,"borderline_copy (similarity=0.908, jaccard=0.803)"
+E2-194,more_urgent,1,1,auto_hard_validation,0.9619,
+E2-194,neutral,1,1,auto_hard_validation,1.0,
+E2-194,warmer,1,1,auto_hard_validation,1.0339,
+E2-195,colder,1,1,auto_hard_validation,1.1803,colder_direction_weak (warmth delta=0)
+E2-195,less_urgent,1,1,human_both_valid,1.1475,
+E2-195,more_urgent,1,1,auto_hard_validation,1.1639,
+E2-195,neutral,1,1,human_both_valid,1.0984,negation_count_changed 2->1
+E2-195,warmer,1,1,human_both_valid,1.1803,
+E2-196,colder,2,0,auto_hard_validation,1.1367,
+E2-196,less_urgent,2,0,auto_hard_validation,1.1151,less_urgent_direction_weak (urgency delta=0)
+E2-196,more_urgent,1,0,auto_hard_validation,1.0504,
+E2-196,neutral,2,0,auto_hard_validation,1.0072,
+E2-197,colder,2,1,auto_hard_validation,1.1458,negation_count_changed 0->1 | colder_direction_weak (warmth delta=0)
+E2-197,less_urgent,1,1,auto_hard_validation,1.0729,negation_count_changed 0->1
+E2-197,more_urgent,2,1,human_both_valid,1.125,negation_count_changed 0->2 | more_urgent_direction_weak (urgency delta=-1)
+E2-197,neutral,2,1,human_both_valid,1.0938,negation_count_changed 0->1
+E2-197,warmer,2,1,auto_hard_validation,1.1667,paragraph_count_changed by 6
+E2-198,more_urgent,3,0,auto_hard_validation,0.9655,negation_count_changed 0->1 | more_urgent_direction_weak (urgency delta=0)
+E2-198,warmer,3,0,auto_hard_validation,1.0,
+E2-199,colder,3,0,human_both_valid,1.1929,
+E2-199,more_urgent,1,0,auto_hard_validation,1.0071,paragraph_count_changed by 9 | more_urgent_direction_weak (urgency delta=0)
+E2-199,neutral,3,0,human_both_valid,1.05,
+E2-200,colder,2,1,auto_hard_validation,1.0672,negation_count_changed 3->5
+E2-200,less_urgent,1,1,auto_hard_validation,1.0632,"borderline_copy (similarity=0.907, jaccard=0.789)"
+E2-200,more_urgent,1,1,auto_hard_validation,1.0988,negation_count_changed 3->4 | more_urgent_direction_weak (urgency delta=0)
+E2-200,neutral,2,1,human_both_valid,1.1067,negation_count_changed 3->5
+E2-200,warmer,2,1,auto_hard_validation,1.1858,negation_count_changed 3->4

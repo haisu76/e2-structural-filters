@@ -1,0 +1,3 @@
+﻿language,n,phishing,legitimate,median_words,median_chars,starts_subject_pct,has_from_pct,exact_dup_rate
+en,3746,2477,1269,238.0,1296.5,0.9746396155899626,0.9703683929524827,0.0
+zh,3030,2020,1010,26.0,533.0,0.01914191419141914,0.01419141914191419,0.0

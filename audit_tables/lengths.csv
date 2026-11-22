@@ -1,0 +1,16 @@
+﻿corpus,label,n,median_words,p10_words,p90_words,median_chars
+enron,ham,16545,132.0,27.0,498.0,621.0
+enron,spam,17171,103.0,29.0,509.0,507.0
+llmgen,phishing,4497,218.0,23.0,250.0,1164.0
+llmgen,legitimate,2279,206.0,15.0,245.0,1144.0
+ephishgen,legitimate,8398,103.0,73.0,148.0,581.0
+ephishgen,phishing,8218,75.0,56.0,104.0,425.0
+phishfuzzer,Phishing,7882,223.0,101.0,373.0,1257.5
+phishfuzzer,Spam,7518,276.0,123.0,477.0,1572.5
+phishfuzzer,Valid,7700,272.0,127.0,461.0,1580.0
+nest,phish,69,38.0,27.0,47.400000000000006,227.0
+nest,legit,77,47.0,32.2,62.400000000000006,257.0
+spamassassin,ham,6954,155.0,45.0,566.0,813.0
+spamassassin,spam,3797,173.0,58.0,616.0,927.0
+turkphish_v1,phishing,6004,43.0,41.0,47.0,182.0
+turkphish_v1,legitimate,1500,46.0,44.0,48.0,180.0

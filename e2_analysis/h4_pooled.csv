@@ -1,0 +1,6 @@
+﻿detector,n_pairs,flip_count,partial_r,p_value,method
+D1,400,8,0.017821905258661702,0.7223267606623487,"pooled within-condition (4 conditions, fixed effects)"
+D2,400,5,0.04543162003471922,0.36479991997416866,"pooled within-condition (4 conditions, fixed effects)"
+D3,400,68,-0.30184285179197773,7.170569812320871e-10,"pooled within-condition (4 conditions, fixed effects)"
+D4,400,41,0.0042528761844974824,0.9324269768471515,"pooled within-condition (4 conditions, fixed effects)"
+D5,400,7,0.04027570084858922,0.4217902905426083,"pooled within-condition (4 conditions, fixed effects)"

@@ -1,0 +1,5 @@
+﻿dimension,n_items,n_cases,icc_consistency_2_3,icc_absolute_2_3,krippendorff_alpha_interval,use
+valence,2,600,0.39134,0.377369,0.154486,primary
+urgency,3,600,0.7908,0.786986,0.550077,primary
+warmth,3,600,0.670324,0.522295,0.173637,primary
+distance,3,600,0.693727,0.51351,0.147963,exploratory
