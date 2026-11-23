@@ -1,6 +1,7 @@
-# Supplementary Tables D1–D6
+# Supplementary Tables D1–D7
 
-Generated 2026-11-19 by `paper/make_supplementary_tables.py`. All files are
+Tables D1–D6 were generated 2026-11-19 by `paper/make_supplementary_tables.py`;
+D7 was generated 2026-11-23 by `paper/compute_h1_prespecified.py`. All files are
 UTF-8 with BOM, comma-separated, one header row, and no index column. Numeric
 values are written with six significant digits (`%.6g`); rates recomputed from
 integer counts may differ in the last digit.
@@ -17,6 +18,7 @@ integer counts may differ in the last digit.
 | D6a | `D6a_G2_generation_inclusion_counts.csv` | 40 | G2 generation, audit, screen, and final inclusion counts by stage and condition, with Wilson 95% CIs for the two overall invalid rates. |
 | D6b | `D6b_G2_evasion_matrix.csv` | 25 | G2 evasion matrix by detector × condition with paired detection change and CI, score drift and CI, threshold, and test FPR. |
 | D6c | `D6c_G2_paired_contrasts.csv` | 42 | G2 pairwise family contrasts by condition and pooled: mean difference and 95% bootstrap CI. |
+| D7 | `D7_H1_prespecified_aggregate_contrasts.csv` | 2 | The two prespecified H1 aggregate evasion contrasts on 115 complete seeds, computed for the manuscript revision from released text-free scores. |
 
 ## Sources and definitions
 
@@ -28,9 +30,11 @@ integer counts may differ in the last digit.
 - **D5b** — computed from `e2_ratings/e2_600_R{1,2,3}_filled_v2.csv` on the 600 non-anchor items, with valence reverse-scored as mean(8 − V1, V2). Consistency ICC is the value reported in the manuscript (Section 3.10 and Section 7); absolute-agreement ICC and interval α are reported for reference. Distance is exploratory. The raters are AI systems.
 - **D6a** — generation counts from `e2_generation/wave1_qwen.jsonl` (last record per seed × condition × candidate; 5,586 log records → 3,000 slots); audit and screen counts from the PI-verified verdict files in `e2_validation/PI_only/`; final counts from `e2_analysis/e2_pairs_G2.csv`.
 - **D6b–D6c** — `e2_analysis/detector_metrics_G2.csv` and `e2_analysis/detector_family_order_G2.csv`. Thresholds are identical to G1 (amendment 2, clause F6). Per clause F3 (18 complete seeds < 30), G2 results are descriptive only: D6c intentionally omits p and q values, and no significance claim is made.
+- **D7** — `e2_analysis/detector_pair_scores.csv` joined to complete seeds in `e2_analysis/pairs_index_G1.csv`. The middle tier is the equal-weight mean of D1, D4 and D5 evasion, exactly as defined for H1; 10,000 seed-clustered percentile resamples use RNG seed 43. This is a calculation on frozen scores, not a new detector run.
 
 ## Reproduce
 
 ```bash
 python paper/make_supplementary_tables.py
+python paper/compute_h1_prespecified.py
 ```
