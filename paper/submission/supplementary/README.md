@@ -1,7 +1,9 @@
-# Supplementary Tables D1–D7
+# Supplementary Tables D1–D8
 
 Tables D1–D6 were generated 2026-11-19 by `paper/make_supplementary_tables.py`;
-D7 was generated 2026-11-23 by `paper/compute_h1_prespecified.py`. All files are
+D7 was generated 2026-11-23 by `paper/compute_h1_prespecified.py`; D8 was
+generated from the restricted G1 log by `paper/compute_g1_condition_funnel.py`.
+All files are
 UTF-8 with BOM, comma-separated, one header row, and no index column. Numeric
 values are written with six significant digits (`%.6g`); rates recomputed from
 integer counts may differ in the last digit.
@@ -19,6 +21,7 @@ integer counts may differ in the last digit.
 | D6b | `D6b_G2_evasion_matrix.csv` | 25 | G2 evasion matrix by detector × condition with paired detection change and CI, score drift and CI, threshold, and test FPR. |
 | D6c | `D6c_G2_paired_contrasts.csv` | 42 | G2 pairwise family contrasts by condition and pooled: mean difference and 95% bootstrap CI. |
 | D7 | `D7_H1_prespecified_aggregate_contrasts.csv` | 2 | The two prespecified H1 aggregate evasion contrasts on 115 complete seeds, computed for the manuscript revision from released text-free scores. |
+| D8 | `D8_G1_condition_funnel.csv` | 6 | Text-free G1 condition funnel: attempted slots, hard-valid slots, seed-conditions with at least one pass, and final included pairs. The sixth row gives totals. |
 
 ## Sources and definitions
 
@@ -31,10 +34,12 @@ integer counts may differ in the last digit.
 - **D6a** — generation counts from `e2_generation/wave1_qwen.jsonl` (last record per seed × condition × candidate; 5,586 log records → 3,000 slots); audit and screen counts from the PI-verified verdict files in `e2_validation/PI_only/`; final counts from `e2_analysis/e2_pairs_G2.csv`.
 - **D6b–D6c** — `e2_analysis/detector_metrics_G2.csv` and `e2_analysis/detector_family_order_G2.csv`. Thresholds are identical to G1 (amendment 2, clause F6). Per clause F3 (18 complete seeds < 30), G2 results are descriptive only: D6c intentionally omits p and q values, and no significance claim is made.
 - **D7** — `e2_analysis/detector_pair_scores.csv` joined to complete seeds in `e2_analysis/pairs_index_G1.csv`. The middle tier is the equal-weight mean of D1, D4 and D5 evasion, exactly as defined for H1; 10,000 seed-clustered percentile resamples use RNG seed 43. This is a calculation on frozen scores, not a new detector run.
+- **D8** — restricted `e2_generation/wave1_deepseek.jsonl` contains 3,935 physical records for 3,000 seed × condition × candidate slots; 935 slots have two attempts. The last physical record per slot is retained. All 857 keys in the released final G1 index are hard-valid under that rule. `e2_validation/G1_wave1_summary.md` describes an earlier 3,925-record snapshot, before ten additional attempts for seed E2-200. It gives the same overall 2,630 passes but assigns one more to `more_urgent` and one fewer to `less_urgent`. D8 uses the final log consistent with the analysis index. The script exports only counts and never publishes the message text.
 
 ## Reproduce
 
 ```bash
 python paper/make_supplementary_tables.py
 python paper/compute_h1_prespecified.py
+python paper/compute_g1_condition_funnel.py --log /private/path/wave1_deepseek.jsonl
 ```

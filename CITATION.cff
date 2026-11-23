@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use this code or the derived tables, please cite the manuscript and this package."
 type: software
 title: "Replication package for: Structural Filters Are the Least Robust: A Preregistered Stress Test of Spam-Detector Feature Families"
-version: 1.0.2
+version: 1.0.3
 date-released: 2026-11-23
 license: MIT
 authors:

@@ -1,0 +1,7 @@
+﻿condition,attempted_slots,hard_valid_slots,hard_valid_rate,seed_conditions_with_pass,final_included_pairs
+neutral,600,538,0.896667,192,186
+warmer,600,513,0.855000,194,159
+colder,600,536,0.893333,191,167
+more_urgent,600,518,0.863333,194,191
+less_urgent,600,525,0.875000,194,154
+TOTAL,3000,2630,0.876667,965,857

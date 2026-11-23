@@ -1,6 +1,6 @@
 # Structural Filters Are the Least Robust — replication package
 
-Version 1.0.2 · 2026-11-23
+Version 1.0.3 · 2026-11-23
 
 Code, prompts, detector configurations, derived tables, and figure scripts for
 the preregistered stress test of spam-detector feature families under
@@ -8,7 +8,7 @@ content-preserving LLM rewrites.
 
 - Preregistration and amendments 1–2 (frozen documents, SHA-256 manifest):
   https://doi.org/10.5281/zenodo.24363906
-- This package: https://github.com/haisu76/e2-structural-filters/tree/v1.0.2
+- This package: https://github.com/haisu76/e2-structural-filters/tree/v1.0.3
   (no software DOI has been assigned)
 
 The two records serve different purposes. The Zenodo record above archives the
