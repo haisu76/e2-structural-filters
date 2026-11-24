@@ -1,6 +1,6 @@
 # Email spam detection under content-preserving LLM rewrites — replication package
 
-Version 1.0.4 · 2026-11-24
+Version 1.0.5 · 2026-11-24
 
 Code, prompts, detector configurations, derived tables, and figure scripts for
 the preregistered stress test of spam-detector feature families under
@@ -8,7 +8,7 @@ content-preserving LLM rewrites.
 
 - Preregistration and amendments 1–2 (frozen documents, SHA-256 manifest):
   https://doi.org/10.5281/zenodo.24363906
-- This package: https://github.com/haisu76/e2-structural-filters/tree/v1.0.4
+- This package: https://github.com/haisu76/e2-structural-filters/tree/v1.0.5
   (no software DOI has been assigned)
 
 The two records serve different purposes. The Zenodo record archives the
@@ -137,7 +137,7 @@ All CSVs are UTF-8 with BOM.
 | `pairs_index_G1.csv` | 857 | Text-free pair index (G1 analysis set) |
 | `pairs_index_G2.csv` | 421 | Text-free pair index (G2) |
 | `*_G2.csv`, `*_sensitivity.csv` | — | The same tables for the G2 run and the sensitivity run |
-| `G1_VERDICT.md` | — | G1 analysis counts and verdicts cited in the manuscript |
+| `G1_VERDICT.md` | — | Historical 18 November G1 analysis snapshot, with a correction notice at its start |
 | `DETECTOR_DESIGN*.md` | — | Exact detector configurations, hyperparameter grids, and thresholds |
 
 ## Licenses

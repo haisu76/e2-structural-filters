@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use this code or the derived tables, please cite the manuscript and this package."
 type: software
 title: "Replication package for: Email spam detection under content-preserving LLM rewrites: a paired evaluation of feature families"
-version: 1.0.4
+version: 1.0.5
 date-released: 2026-11-24
 license: MIT
 authors:
