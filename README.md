@@ -1,6 +1,6 @@
-# Structural Filters Are the Least Robust — replication package
+# Email spam detection under content-preserving LLM rewrites — replication package
 
-Version 1.0.3 · 2026-11-23
+Version 1.0.4 · 2026-11-24
 
 Code, prompts, detector configurations, derived tables, and figure scripts for
 the preregistered stress test of spam-detector feature families under
@@ -8,13 +8,22 @@ content-preserving LLM rewrites.
 
 - Preregistration and amendments 1–2 (frozen documents, SHA-256 manifest):
   https://doi.org/10.5281/zenodo.24363906
-- This package: https://github.com/haisu76/e2-structural-filters/tree/v1.0.3
+- This package: https://github.com/haisu76/e2-structural-filters/tree/v1.0.4
   (no software DOI has been assigned)
 
-The two records serve different purposes. The Zenodo record above archives the
-protocol documents and proves what was frozen before data collection. This
+The two records serve different purposes. The Zenodo record archives the
+protocol documents, internal timestamps, and checksums. Its public deposit on
+19 November 2026 was retrospective, after data collection and analysis, and
+does not independently establish a pre-data-collection public timestamp. This
 package contains the materials behind the reported results: analysis code,
 prompts, detector definitions, derived tables, and figure scripts.
+
+"Content-preserving" describes the rewrite constraints and the inclusion
+procedure, not a guarantee that every accepted rewrite retained all source
+claims. The G1 rule screen was chosen after examining a 65-pair audit drawn
+only from automatically included pairs. Its 0 invalid judgments among 41
+audit pairs missed by that screen are an in-sample observation, not a 95%
+confidence bound for all 684 unflagged pairs.
 
 ## Contents
 
@@ -128,7 +137,7 @@ All CSVs are UTF-8 with BOM.
 | `pairs_index_G1.csv` | 857 | Text-free pair index (G1 analysis set) |
 | `pairs_index_G2.csv` | 421 | Text-free pair index (G2) |
 | `*_G2.csv`, `*_sensitivity.csv` | — | The same tables for the G2 run and the sensitivity run |
-| `G1_VERDICT.md` | — | Frozen G1 counts and verdicts cited in the manuscript |
+| `G1_VERDICT.md` | — | G1 analysis counts and verdicts cited in the manuscript |
 | `DETECTOR_DESIGN*.md` | — | Exact detector configurations, hyperparameter grids, and thresholds |
 
 ## Licenses
